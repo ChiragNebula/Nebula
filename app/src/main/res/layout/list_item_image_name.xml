@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_effect"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/list_item_image"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.3" />
+
+
+    <com.nebulacompanies.nebula.view.MyTextView
+        android:id="@+id/list_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="@dimen/dimen_five_dp"
+        android:layout_weight=".7"
+        android:textColor="#837f7f"
+        android:textSize="@dimen/dimen_large_callibri" />
+
+</LinearLayout>

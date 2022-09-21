@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:id="@+id/futura_img"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:src="@drawable/futura_logo"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:src="@drawable/futura_dirs"/>
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dirtext3"
+                    android:text="Masood Khan"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/dimen_small_callibri"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"/>
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dirtext4"
+                    android:text="Ashish Handa"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/dimen_small_callibri"
+                    android:layout_gravity="center"/>
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dirtext5"
+                    android:text="Sameer Gandotra"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/dimen_small_callibri"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shortdesc3"
+                android:text="@string/futura_view"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_normal_callibri"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"
+                android:padding="10dp"
+                android:layout_marginTop="5dp">
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/exp3"
+                    android:text="@string/expertise"
+                    android:textColor="@color/facebook_feeds"
+                    android:textSize="@dimen/dimen_normal_callibri"/>
+
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shortdesctext3"
+                    android:text="@string/expertise_futura"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/dimen_normal_callibri"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:id="@+id/futura_img"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:id="@+id/webviewfutura"
+        android:layout_weight="0.7"/>
+
+</LinearLayout>-->

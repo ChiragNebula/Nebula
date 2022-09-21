@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:id="@+id/txt_installment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:maxLines="4"
+                android:text="installment"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <TextView
+                android:id="@+id/txt_EmiDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="EMIDate"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <TextView
+                android:id="@+id/txt_Amout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="amount"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <TextView
+                android:id="@+id/txt_EmiStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="@{EMI.status}"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="ⓘ"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+    </LinearLayout>
+</RelativeLayout>

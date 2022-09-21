@@ -1,0 +1,995 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Nebula </string>
+    <string name="version">Version </string>
+
+    // NEBULA MARKETING APP
+
+    <string name="company_profile">Company Profile</string>
+    <string name="products">Products</string>
+    <string name="events">Events</string>
+    <string name="videos">Videos</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="notifications">Notifications</string>
+    <string name="newsletters">Newsletters</string>
+    <string name="edocs">E-Documents</string>
+    <string name="ebro">E-Brochures</string>
+    <string name="bookingforms">Booking Forms</string>
+    <string name="leaflets">Leaflets</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="vision">Vision</string>
+    <string name="vision_para">Happy customers all\naround.</string>
+    <string name="mission">Mission</string>
+    <string name="mission_para">Building hotels,\n homes &amp; dreams.</string>
+    <string name="values">Values</string>
+    <string name="values_para">We deliver on Promises.\nTrust &amp; Responsibility.</string>
+    <string name="pacifica_view">A privately held vertically integrated real estate and hospitality conglomerate with a global presence across USA, India &amp; Mexico and a 2.7 billion USD turnover.</string>
+    <string name="futura_view">A diversified group with expertise in contracting &amp; project management for E&amp;P in the O&amp;G industry. Futura is also involved in pharmaceutical, IT and EXIM industry.</string>
+    <string name="kesar_view">One of the largest land aggregators of Gujarat with a proven track record of having developed millions of square feet of residential and commercial projects.</string>
+    <string name="expertise">Expertise</string>
+    <string name="expertise_kesar">Land Aggregation, Affordable Housing</string>
+    <string name="expertise_futura">O&amp;G Commissioning and Manpower supply</string>
+    <string name="expertise_pacifica">Real Estate development\n(Commercial, Residential)</string>
+    <string name="forgot_your_password_customer" translatable="false">Reset Password</string>
+    <string name="income_summary">Income Summary</string>
+    <string name="promotion_details">Promotion Details</string>
+    <string name="downloads">Downloads</string>
+    <string name="ahmedabad">Ahmedabad</string>
+
+    <string name="product_name">Product Name</string>
+    <string name="bv">BV%</string>
+    <string name="bv_">BV : </string>
+    <string name="retail_profit">Retail Profit%</string>
+    <string name="nv">NV</string>
+    <string name="receipt_date">Receipt Date</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="emi_no">EMI No</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="type">Type</string>
+    <string name="leadership_bonus">Leadership Bonus</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="total">Total</string>
+
+
+    <string name="Aavaas_sanand" translatable="false">Aavaas, Sanand</string>
+    <string name="aavaas_details_sanand" translatable="false">Lavish 4.12 Acre Community | Spacious 1 &amp; 2 BHK Apartments | 11 Towers of 6 Storeys &amp; 2 Towers of 7 Storeys each | Clubhouse with Modern Features | Landscaped
+Garden with Lifestyle Facilities for all age groups | 24 x 7 Security Solutions | Conveniently located near Proposed 24 Meter Road at Sanand.</string>
+    <string name="project_highlights_sanand" translatable="false">Project Highlights</string>
+    <string name="abad_highlight1_sanand" translatable="false">Club House</string>
+    <string name="abad_highlight2_sanand" translatable="false">Swimming Pool</string>
+    <string name="abad_highlight3_sanand" translatable="false">Jogging Track</string>
+    <string name="abad_highlight4_sanand" translatable="false">Badminton</string>
+    <string name="abad_highlight5_sanand" translatable="false">Car Parking</string>
+    <string name="abad_highlight6_sanand" translatable="false">Box Cricket Pitch</string>
+    <string name="abad_highlight7_sanand" translatable="false">Landscaped Garden</string>
+    <string name="abad_highlight8_sanand" translatable="false">Senior Citizen Sit Out</string>
+    <string name="abad_highlight9_sanand" translatable="false">Kids Play Area</string>
+
+    <string name="Aavaas">Aavaas, Changodar</string>
+    <string name="aavaas_details">At affordable luxurious lifestyle for the first time in Ahmedabad that offers best lifestyle experiences at a strategic location of the city. It is time to shape the future and make the dream a reality with the best of facilities and features available in an affordable way.</string>
+    <string name="project_highlights">Project Highlights</string>
+    <string name="abad_highlight1">1 RK, 1 BHK &amp; 2 BHK Apartments</string>
+    <string name="abad_highlight2">56 Buildings of G+3 Storeys</string>
+    <string name="abad_highlight3">Over 19 Acres</string>
+    <string name="abad_highlight4">Daily conveniences, schools &amp; colleges</string>
+    <string name="abad_highlight5">20 minutes from City Center</string>
+    <string name="abad_highlight6">Clubhouse with Community Hall</string>
+
+    <string name="Hawthorn">Hawthorn, Dwarka</string>
+    <string name="hawthorn_details">Nebula\'s 5 star eco-spiritual resort of luxury Villas is spread across 15 acres. This resort is one of a kind boasting handpicked amenities to immerse you in peace and tranquility of the holy land, soothing your body mind and soul.</string>
+    <string name="dwarka_highlight1">200 Villas</string>
+    <string name="dwarka_highlight2">60+ Suites</string>
+    <string name="dwarka_highlight3">1 BHK (Deluxe &amp; Super Deluxe) &amp; 2 BHK (Super Deluxe)</string>
+    <string name="dwarka_highlight4">The Krishna Museum</string>
+    <string name="dwarka_highlight5">Stargazing Camps</string>
+    <string name="dwarka_highlight6">Dhyana Meditation Garden/Prana Herbal Spa And Wellness Center</string>
+
+    <string name="Aavaas_Hyderabad">Aavaas, Hyderabad</string>
+    <string name="hyderabad_details">Situated in the north-west region of Hyderabad, Bachupally is a vicinity that has metamorphosed into a bustling IT hub. Located in the Quthbullapur Mandal, the neighbourhood is encircled by Suraram Village in east, Bollaram Industrial to the west, Bowrampet in the north and Whisper Valley towards the south. Apart from the manmade infrastructure, Bachupally is also a nature-lovers haven with lots of lakes and ponds in and around the area. The vicinity is cited to be a gold mine thanks to its greenery.</string>
+    <string name="hbad_highlight1">1 BHK &amp; 2 BHK</string>
+    <string name="hbad_highlight2">Over 10 Acres</string>
+    <string name="hbad_highlight3">High rise multi storey buildings</string>
+    <string name="hbad_highlight4">Yoga Center</string>
+    <string name="hbad_highlight5">Library</string>
+    <string name="hbad_highlight6">Party Lawn</string>
+
+
+    <!--Chennai-->
+    <string name="chennai_highlight1" translatable="false">1, 1.5, 2 BHK Homes</string>
+    <string name="chennai_highlight2" translatable="false">1568 Units in Phase 1</string>
+    <string name="chennai_highlight3" translatable="false">Easy Connectivity by Road &amp; Rail</string>
+    <string name="chennai_highlight4" translatable="false">Home to IT, Automobile</string>
+    <string name="chennai_highlight5" translatable="false">Land spread Across 22 Acres</string>
+    <string name="chennai_highlight6" translatable="false">Lifestyle Amenities</string>
+
+
+    <string name="office_address">705, Shivalik Abaise, Prahladnagar, Ahmedabad - 380 015</string>
+    <string name="phone"><u>+91 79 6621 2222</u></string>
+    <!--<string name="office_phone_number2"><u>1800 419 2299</u> (Toll Free)</string>-->
+    <string name="toll_free_phone_number"><u>1800 123 7073 (Toll Free)</u></string>
+    <string name="office_fax_number">+91 79 6621 2200 (Fax)</string>
+    <string name="office_email"><u>info@nebulacompanies.com</u></string>
+
+    <string name="rank_and_volumes">Rank &amp; Volumes</string>
+    <string name="my_bv_commission">My BV Commission</string>
+    <string name="member_name_">Member Name</string>
+    <string name="member_id_">Member ID</string>
+    <string name="closing_date">Closing Date</string>
+    <string name="my_bv">My BV %</string>
+    <string name="rank">Rank</string>
+    <string name="gold_income_">Gold Income</string>
+    <string name="total_bv_commission">Total BV Commission</string>
+    <string name="more_info">More Info</string>
+    <string name="info_">Info</string>
+    <string name="bv_from_sales">BV From Sales</string>
+    <string name="fl_bv">FLBV</string>
+    <string name="my_BV">My BV</string>
+    <string name="dbv">DBV</string>
+    <string name="dbv_commission">DBV Commission</string>
+    <string name="total_income">Total Income</string>
+    <string name="incomeorshare">Income / Share</string>
+    <string name="sale_id">Sale ID</string>
+    <string name="unit">Unit</string>
+    <string name="sale_info">Sale Info</string>
+    <string name="investment">Investment</string>
+    <string name="payment_plan">Payment Plan</string>
+    <string name="token_amount">Token Amount</string>
+    <string name="dp_20">DP</string>
+    <string name="discount">Discount</string>
+    <string name="monthly_installment">Monthly Installment</string>
+    <string name="next_installment_date">Next Installment Date</string>
+    <string name="customer_info">Customer Info</string>
+    <string name="state_">State</string>
+    <string name="city_">City</string>
+    <string name="mobile">Mobile</string>
+    <string name="pincode_">Pincode</string>
+
+    <string name="pdf_dwonload_toast">Are you sure you want to download this E-Brochure?</string>
+    <string name="pdf_dwonload_toast_booking">Are you sure you want to download this Booking Form?</string>
+    <string name="pdf_dwonload_toast_leaflets">Are you sure you want to download this Leaflet?</string>
+    <string name="pdf_share_toast">Please download the pdf to share</string>
+    <string name="newsletter_share_toast">Please download newsletter to share</string>
+    <string name="image_share_toast">Please download image to share</string>
+    <string name="video_download_toast">Are you sure you want to download this video?</string>
+    <string name="newsletter_download_toast">Are you sure you want to download this newsletter?</string>
+    <string name="ratechart_download_toast">Are you sure you want to download this rate chart?</string>
+
+    //You Tube
+    <string name="hello_world">Hello world!</string>
+
+    // MENU
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+
+    // NEBULA APP
+    <string name="login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="continues">Continue</string>
+    <string name="verify">Verify</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_otp_password">RESET YOUR PASSWORD </string>
+    <string name="kyc">Download KYC</string>
+    <string name="action_settings">Settings</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="current_rank">Current Rank :</string>
+    <string name="next_eligible_rank">Next Eligible Rank :</string>
+    <string name="yearly_pnv">Yearly PNV :</string>
+    <string name="total_dv">Total DV :</string>
+    <string name="total_nv">Total NV :</string>
+    <string name="downline_status"><u>Downline Status</u></string>
+    <string name="my_downline">My Downline</string>
+    <string name="downline_status_">Downline Status</string>
+    <string name="last_10_joining"><u>Last 10 Joinings</u></string>
+    <string name="last_10_joining_">Last 10 Joinings</string>
+
+    <string name="submit">Submit</string>
+    <string name="sponser_id_">Sponsor ID</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="member_address">Address</string>
+    <string name="share_via">Share via</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="nebula_show">We are the fastest growing Network marketing company in India.</string>
+    <string name="nebula_show_join">Join the Nebula Family!</string>
+    <string name="Nebula_privacy_policy_title"><u>Nebula™ User Privacy Policy</u></string>
+    <string name="txtfornebula12"><p align="justify">Being a resolute Network Marketing Company the top priority of Nebula ™ will always be the relationship with its members/associates. We collect information that you would provide directly to us based on the scope of our Nebula™ app.</p></string>
+    <string name="txtfornebulapfor2">Nebula™, as data controller, when activating and using the Nebula™ Services, how Nebula™ receives, collects and uses this data and how you may opt-out at any time, altogether preventing use of the data shared via the Services.</string>
+    <string name="txtfornebulapfor3">Installation and Use</string>
+    <string name="txtfornebulapfor4">After you install and use the Nebula™ App, Nebula™ will collect, process and retain personal information from you and any devices you may use connected with our application. This information may include the following: Storage, geo-location, telephone access, Your IP address, device manufacturer and type, Data operator, IMEI, connection information, screen resolution, camera, usage statistics and device log. This will help us serve you better.</string>
+    <string name="txtfornebulapfor5">Map &amp; Location Information:</string>
+    <string name="txtfornebulapfor6">Nebula™ app would have the access of Google Maps and Location services to enable you to locate our offices from the app itself and we will have a log of your location so that we can provide you the locations of your marketing network and downline members. Similarly members who have you in their marketing network will be able to track your location. Your location will not be public but will be accessible to your direct upline members only.</string>
+    <string name="txtfornebulapfor7">Contacts Information:</string>
+    <string name="txtfornebulapfor8">Data from SMS/ text messages upon receiving Device permissions for the purposes of (i) issuing and receiving one time passwords and other device verification, and (ii) automatically login using one time password, in accordance with applicable law. We do not share or transfer SMS/ text message data to any third party other than as provided under this Privacy Policy.</string>
+    <string name="txtfornebulapforsms">SMS Information:</string>
+    <string name="txtfornebulapforsmspolicy">If you permit the Nebula™ app to access the address book on your device, we may access and store names and contact information from your address book to enable marketing interactions of the concerned contacts based on their history. We will send marketing SMS, emails and/or call your contacts from your phone book. Your contact book is completely private with us and is only meant for marketing and promotional purposes.</string>
+    <string name="txtfornebulapfor9">Device Information:</string>
+    <string name="txtfornebulapfor10">We may collect information about your mobile device, including, for example, the hardware model, operating system and version, software version, IMEI, unique device identifier, advertising identifiers, serial number, device motion information, device IP address and mobile network information. This info will help us understand the device specific issues and help us resolve errors with more precision. Your device information will remain confidential and private with us.</string>
+    <string name="txtfornebulapfor11">Nebula™may use Push Notification Services to notify you about up-dates and important information. In such cases, your phone number may be part of the notification. This message is sent to the push notification service provider, for delivery to your device. You may, however, at any time-opt out or disable push notifications in the Nebula™app.</string>
+    <string name="txtfornebulapfor12">Nebula™app will upload your personal details and your device information on a secure server. This information stored on our server is never circulated or shared with any third party applications or entities.</string>
+    <string name="txtfornebulapfor13">Please note that Nebula™ or Nebula Companies do not responsibility if a user copies, uploads downline data on a third party app or any other server. Please be very cautious before sharing your data with any third party app claiming to be associated with us. Nebula™ app is not responsible for any loss of user data.</string>
+    <string name="str_itinerary_title_dwark">Itinerary - 3 Days</string>
+    <string name="document_download_toast" translatable="false">Are you sure you want to download this Document?</string>
+    <!--Promotions Terms and Conditions-->
+    <string name="Nebula_terms_title"><u>Terms and Conditions</u></string>
+    <string name="txtpromotions1">For Star Platinum and Above NV will be calculated from 2nd and 3rd legs, whereas for any rank below Star Platinum, maximum 10000 NV will be considered from Power leg, balance has to be covered in 2nd and 3rd leg.</string>
+    <string name="txtpromotions2">NV generated from new sales can contribute for only 3 qualifications for both the promotions.</string>
+    <string name="txtpromotions3">NV will be calculated on Placement tree.</string>
+    <string name="txtpromotions4">The rank at the end of the promotion period shall be considered for qualification.</string>
+    <string name="txtpromotions5">This promotion will only be valid on new bookings made between 6th Aug 2018 to 28th Oct 2018.</string>
+    <string name="txtpromotions6">NV generated from Token and Spot Down Payment shall be considered for these promotions. </string>
+    <string name="txtpromotions7">If the company foresees any cancellation or dispute in any new sale, then that particular sale shall not be counted.</string>
+    <string name="txtpromotions8">Management reserves the right to discontinue the promotion at any point of time.</string>
+    <string name="txtpromotions9">Management reserves the right to disqualify any IBO on the basis of unethical practices.</string>
+    <string name="txtpromotions10">For International trip qualifiers: IBO must have a valid Passport with minimum 6 Months validity or as per government rules at the time of travel.</string>
+    <string name="txtpromotions11">The IBO must be fit enough for air travel.</string>
+    <string name="txtpromotions12">Visa is not included in this promotion. It is the sole responsibility of the IBO to get the visa however management may help facilitate the visa process.</string>
+    <string name="txtpromotions13">This promotion is non-transferable and cannot be encashed.</string>
+    <string name="txtpromotions14">A sale will be considered complete only when the token amount is cleared with PDCs for EMIs/ECS application and complete loan documents have been received.</string>
+    <string name="txtpromotions15">These promotions will not be exchanged for any other promotion.</string>
+    <string name="txtpromotions16">On demand, at any time during the promotion all the qualifiers must present the passport and other required documents for Air tickets and hotel bookings.</string>
+    <string name="txtpromotions17">Its mandatory for all the qualifiers to attend the leadership development training program (all sessions).</string>
+    <string name="txtpromotions18">At any point during the promotions Nebula reserves the right to discontinue the trip of any qualifier.</string>
+    <string name="txtpromotions19">Nebula shall only be sponsoring for fixed inclusions- rest all the other expenses are to be borne by the qualifier.</string>
+    <string name="txtpromotions20">Nebula reserves the right to make any changes in the promotions.</string>
+
+    <string name="dwarka">Dwarka</string>
+    <string name="thailand">Thailand (Bangkok-Pattaya)</string>
+    <!--Eligibility Criteria-->
+    <!--International And Domestic-->
+    <string name="Nebula_eligibility_criteria_title"><u>Eligibility Criteria</u></string>
+    <string name="Nebula_eligibility_criteria_in_txt1">IBO must be ranked Star Platinum and above and have new sales with 45000 NV in his down-line before the end of the promotion.</string>
+    <string name="Nebula_eligibility_criteria_in_txt2">The Star Platinum has direct sales of 12 apartments of Nebula’s Aavaas Changodar (Ahmedabad) or Nebula’s Aavaas Miyapur (Hyderabad) or combination of both the project sales.</string>
+    <string name="Nebula_eligibility_criteria_in_txt3">The Star Platinum has direct sales of 5 villas in Hawthorn Suites in Dwarka.</string>
+    <string name="Nebula_eligibility_criteria_in_txt4">The Star Platinum has Direct Sales/Sponsored 45 Nebula’s Thailand Holiday packages.</string>
+
+    <string name="Nebula_eligibility_criteria_dos_txt1">IBO ranked below Star Platinum with new sales of 20000 NV in his down-line before the end of the promotion is qualified for this Promo.</string>
+    <string name="Nebula_eligibility_criteria_dos_txt2">The IBO has direct sales of 7 apartments of Nebula’s Aavaas Changodar (Ahmedabad) or Nebula’s Aavaas Miyapur (Hyderabad) or combination of both the project sales.</string>
+    <string name="Nebula_eligibility_criteria_dos_txt3">The IBO has direct sales of 3 villas in Hawthorn Suites in Dwarka.</string>
+    <string name="Nebula_eligibility_criteria_dos_txt4">The IBO has Direct Sales/Sponsored 25 Nebula’s Thailand Holiday packages.</string>
+
+
+    <string name="site_progress">Site Progress</string>
+    <string name="starpool">Star pool%</string>
+    <string name="my_sales">My Sales</string>
+    <string name="download">Download</string>
+    <string name="my_purchases">My Purchases</string>
+    <string name="vacation_purchase">Vacation Package Purchased on</string>
+    <string name="no_records_found">No records found..!</string>
+
+    <string name="level">Level</string>
+    <string name="leg">Leg</string>
+    <string name="joining_date_">Joining Date</string>
+    <string name="email">Email</string>
+    <string name="gbv">GBV</string>
+    <string name="generation_income_">Generation Income</string>
+    <string name="date">Date</string>
+    <string name="tds">TDS</string>
+    <string name="net_amount">Net Amount</string>
+    <string name="shares">Shares</string>
+    <string name="payout">Payout</string>
+    <string name="download_kyc">Are you sure you want to download this KYC Form?</string>
+    <string name="app_update">A new version of this app is now available. Would you like to download it?</string>
+
+    <string name="projects_">Projects</string>
+    <string name="my_income">My Income</string>
+    <string name="Rs">\u20B9</string>
+    <string name="current_badge">My Current Badge</string>
+    <string name="upcoming_badge">Upcoming Badge</string>
+    <string name="promotion_international">INTERNATIONAL</string>
+    <string name="promotion_international_leader">LEADERSHIP</string>
+    <string name="promotion_international_retreat">RETREAT</string>
+    <string name="promotion_international_period"> Promo period: 6th August 2018 to 28th October 2018</string>
+    <string name="promotion_international_package">An all-expense paid 4 Nights 5 Days Leadership program at an International location. </string>
+    <string name="promotion_national">DOMESTIC</string>
+    <string name="promotion_national_period">Promo period: 6th August 2018 to 28th October 2018</string>
+    <string name="promotion_national_package">An all-expense paid 3 Nights 4 Days Leadership program at an exotic location in India.</string>
+    <string name="promotion_details_progress">My Progress</string>
+    <string name="promotion_details_downline">See Downline Progress</string>
+    <string name="promotion_details_eligible">Eligible Criteria</string>
+
+    <string name="last_payout">Last Payout</string>
+    <string name="last_payout_date">Last Payout Date</string>
+    <string name="payout_details"><u><i>Payout Details</i></u></string>
+    <string name="amount_received">Amount Received</string>
+    <string name="pending_amount">Pending Amount</string>
+    <string name="installment_amount">Installment Amount</string>
+
+    //Waiting List
+    <string name="waiting_detail">Please enter following details to know your waiting number:</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="display_waiting">Display Waiting</string>
+
+    //Forgot Password
+    <string name="enter_mobile">Enter Your Member ID</string>
+    <string name="get_password">Get Password</string>
+
+    //Units Popup
+    <string name="wing">Wing</string>
+    <string name="total_units">Total Units</string>
+
+    //Projects
+    <string name="product_list_ah">Aavaas (Changodar), Ahmedabad</string>
+    <string name="product_list_dw">Hawthorn Suites, Dwarka</string>
+
+    <string name="product_list_ah1">Aavaas (Changodar), Ahmedabad</string>
+    <string name="product_list_dw1">Hawthorn Suites, Dwarka</string>
+
+    <string name="aavaas_Phase_one">Phase I</string>
+    <string name="aavaas_Phase_two">Phase II</string>
+    <string name="aavaas_Phase_three">Phase III</string>
+    <string name="aavaas_Phase_threea">Phase IIIA</string>
+
+    <string name="about_us">About Us</string>
+    <string name="Promoters">Promoters</string>
+
+    <string name="Booster_Income_AavaasAhmedabad">Booster Income</string>
+    <string name="booster_income">Booster Income</string>
+    <string name="SuperBoosterIncome_AavaasAhmedabad">Super Booster Income</string>
+    <string name="super_booster_income">Super Booster Income</string>
+    <string name="su_booster">SU Booster Income</string>
+    <string name="car_program">Car Program Income</string>
+    <string name="logout_show">Are you sure you want to logout?</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_later">Update Later</string>
+
+    <string name="Coming_Soon">Coming Soon</string>
+    <string name="Network_is_not_available">Network is not available.</string>
+    <string name="PlacementTree">Placement Tree</string>
+    <string name="SponsorTree">Sponsor Tree</string>
+    <string name="enter_login_id_password">Enter Login ID and Password</string>
+    <string name="enter_login_id">Enter Login ID</string>
+    <string name="enter_login_password">Enter Password</string>
+
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>తెలుగు</item>
+        <item>ગુજરાતી</item>
+    </string-array>
+    <string name="language">Language</string>
+    <string name="title_app_lan">Application Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_gujarati">ગુજરાતી</string>
+    <string name="lang_tamil">தமிழ்</string>
+
+    <string-array name="dashboard_item">
+        <!--<item>Holidays</item>-->
+        <item>Projects</item>
+        <item>Rank &amp; Volumes</item>
+        <item>My Sales</item>
+        <item>My Downline</item>
+        <item>My Income</item>
+        <item>Member Notifications</item>
+        <item>Downloads</item>
+    </string-array>
+
+    <string name="yes">Ok</string>
+    <string name="no">Cancel</string>
+
+    //Insufficient Storage
+    <string name="insufficient_storage">Insufficient storage</string>
+    <string name="view_storage">VIEW STORAGE</string>
+    <string name="cancel_storage">CANCEL</string>
+    <string name="view_device_message_newsletter">This device doesn\'t have enough space to download this newsletter. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_video">This device doesn\'t have enough space to download this video. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_brochure">This device doesn\'t have enough space to download this e-brochure. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_leaflet">This device doesn\'t have enough space to download this leaflet. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_bookingform">This device doesn\'t have enough space to download this booking form. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_ratechart">This device doesn\'t have enough space to download this rate chart. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_kyc">This device doesn\'t have enough space to download this KYC Form. Consider deleting apps or content you no longer need and try again.</string>
+
+    <string-array name="product_list">
+        <item>Aavaas (Sanand), Ahmedabad</item>
+        <item>Aavaas (Changodar), Ahmedabad</item>
+        <item>Hawthorn Suites, Dwarka</item>
+        <item>Aavaas, Hyderabad</item>
+        <item>Aavaas (Chennai), Chennai</item>
+    </string-array>
+    <string name="aavas_chennai" translatable="false">Aavaas, Chennai</string>
+    <string name="aavas_chennai_des" translatable="false">Aavaas Chennai is designed to fulfill every homeowner\'s dream to own a home. Spread over 22 acres and situated in a work ready hub, Aavaas is accessible from major roads of Chennai and comes with array of conveniences. Moreover the contemporary amenities and facilities upgrade you to a new way of living.</string>
+
+
+    //Contact Us
+    <string name="head_office_ahmedabad">HEAD OFFICE, AHMEDABAD</string>
+    <string name="site_address_ahmedabad">Aavaas, Village Moraiya, Changodar, Ahmedabad-Rajkot Highway, Ahmedabad - 382 213</string>
+    <string name="site_office_ahmedabad">SITE OFFICE, AHMEDABAD</string>
+    <string name="ahmedabad_">Ahmedabad</string>
+    <string name="corporate_office_hyderabad">CORPORATE OFFICE, HYDERABAD</string>
+    <string name="corporate_office_hyderabad_address">Nebula Aavaas Hyderabad Bollaram Road, Coca-Cola Junction, Ameenapura, Miyapur, Hyderabad - 500049</string>
+    <string name="site_office_hyderabad">SITE OFFICE, HYDERABAD</string>
+    <string name="site_office_hyderabad_address">Bachupally Rd, Krishnaja Hills, Nizampet, Hyderabad, Telangana - 502325</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="hyderabad_email_address"><u>hyderabad@nebulacompanies.com</u></string>
+    <string name="corporate_office_kolkata">CORPORATE OFFICE, KOLKATA</string>
+    <string name="corporate_office_kolkata_address">Arihant Building, Collin Ln, Taltala, Kolkata, West Bengal - 700016</string>
+    <string name="kolkata">Kolkata</string>
+
+    //Chennai
+    <string name="chennai">Chennai</string>
+    <string name="chennai_email_address" translatable="false"><u>happychennai@nebulacompanies.com</u></string>
+    <string name="corporate_office_chennai" translatable="false">CORPORATE OFFICE, CHENNAI</string>
+    <string name="site_office_chennai" translatable="false">SITE OFFICE, CHENNAI</string>
+    <string name="corporate_office_chennai_address" translatable="false">OPP. Mahindra World City Main Entrance, G.S.T Main Rd, Chennai, Tamil Nadu - 603204</string>
+    <string name="corporate_office_chennai_phone_number" translatable="false">044 6741 9777</string>
+    <string name="corporate_office_hydrabad_phone_number" translatable="false">+91-7227904567</string>
+
+    //Buy Package
+    <string name="prompt_buy" translatable="false">Buy This Package</string>
+
+
+    //Customer Login
+    <string name="customer_change_request">Change Request</string>
+
+    <string name="customers_name">Customer\'s Name</string>
+    <string name="package_name">Package</string>
+
+    <string name="date_change_request">Date Change Request</string>
+    <string name="name_change_request">Name Change Request</string>
+    <string name="cancel_request">Cancel my Trip</string>
+    <string name="plan_change_text1">You are currently under </string>
+
+    //Itinerary
+    <string name="check_in">Check in</string>
+    <string name="check_out">Check out</string>
+    <string name="booking_id">Booking ID</string>
+
+    <string name="retail_income">Retail Income</string>
+    <string name="vacation_booster">Holiday Booster</string>
+    <string name="Statistics">Statistics</string>
+    <string name="main_leg">Main Leg</string>
+    <string name="weaker_leg">Weaker Leg</string>
+    <string name="weakest_leg">Weakest Leg</string>
+    <string name="ibo_id">IBO ID</string>
+    <string name="ibo_name">IBO Name</string>
+    <string name="traveller_name">Traveller Name</string>
+    <string name="trip_detail">Trip Detail</string>
+    <string name="status">Status</string>
+
+    <string name="not_eligible_for_booster">You are not eligible for Holiday Booster.</string>
+    <string name="eligible_for_booster">You are now eligible for Holiday Booster.</string>
+    <string name="thailand_trip">Nebula Holidays</string>
+    <string name="thailand_trip_">Nebula\nHolidays</string>
+    <string name="traveller_details"><b><u>Traveller Details</u></b></string>
+
+    <string-array name="amenities">
+        <item>Business Center</item>
+        <item>24-Hour Front Desk</item>
+        <item>Air Conditioning</item>
+        <item>Daily Housekeeping</item>
+        <item>Front Desk Safe</item>
+        <item>Laundry Service</item>
+        <item>Luggage Storage</item>
+        <item>268 Smoke-Free Guestrooms</item>
+    </string-array>
+
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="booking_form">Booking Form</string>
+    <string name="married">Married</string>
+    <string name="single">Single</string>
+    <string name="passport">Passport</string>
+    <string name="p_one">Season-1</string>
+    <string name="p_two">Season-2</string>
+    <string name="twin_sharing">Twin Sharing</string>
+    <string name="double_bed">Double Bed</string>
+
+    <string-array name="payment_detail">
+        <item>*Select payment mode</item>
+        <item>Cheque</item>
+        <item>NEFT</item>
+        <item>RTGS</item>
+        <item>DD</item>
+    </string-array>
+
+    <string name="help">How can we help?</string>
+    <string name="modify_booking">Modify booking</string>
+    <string name="Travel_booking_form_sumbit">You have successfuly submitted your Travel booking form. We will verify your booking payment and let you know.</string>
+
+    //Holiday Contact Us
+    <string name="vacation_contact_hyd_address">South India 420, 4th Floor, Manjeera Majestic Commercial, Adj - Raithu Bazaar KPHB, Hyderabad - 500 072.</string>
+    <string name="vacation_contact_hyd_phone_one"><u>+91 40 4613 6600</u></string>
+    <string name="vacation_contact_hyd_phone_two"><u>+91 40 4613 6616</u></string>
+    <string name="vacation_contact_hyd_email"><u>holidays_south@nebulacompanies.com</u></string>
+    <string name="vacation_contact_ahmedabad_phone_one"><u>+91 79 6621 2222</u></string>
+    <string name="vacation_contact_ahmedabad_phone_two">Toll Free No: <u>1800 419 2299</u></string>
+    <string name="vacation_contact_ahmedabad_email"><u>holidays@nebulacompanies.com</u></string>
+
+    //Dwarka
+    <string name="vacation_south_india"><u>South India</u></string>
+    <string name="vacation_rest_of_india"><u>Rest Of India</u></string>
+    <string name="vacation_contact_hyd_address_dwarka">420, 4th Floor, Manjeera Majestic Commercial, Adj - Raithu Bazaar KPHB, Hyderabad - 500 072.</string>
+    <string name="vacation_contact_ahmd_address_dwarka">705, Shivalik Abaise, Prahladnagar, Ahmedabad - 380 015</string>
+    <![CDATA[
+
+
+
+
+
+
+
+
+
+    //FAQs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // T & C
+    ]]>
+    <string name="vacation_booster_tc">To be eligible for Holiday Booster you need to sell or Sponsor 10 packages to avail your free Holiday package.
+You can redeem this package by providing a written request to the nearest Nebula office. You shall receive your traveller login upon successful processing of your request.
+This is a onetime Bonus and cannot be redeemed after the Season-2 ends.
+Trip conditions will be same as that of a normal Customer. Kindly read the Terms &amp; Conditions for Holiday trip before availing your free trip.</string>
+
+    // Booking Form
+    <string name="booking_form_step1">Traveller Details</string>
+    <string name="booking_form_step2">Other Details</string>
+    <!--<string name="booking_form_step2">Emergency Contact Details</string>-->
+    <string name="booking_form_step3">Traveller Preference</string>
+    <string name="booking_form_step4">Payment Details</string>
+    <string name="booking_form_step5">Uploads</string>
+
+    <string name="step1_iboid">*IBO Id</string>
+    <string name="step1_firstname">*First Name</string>
+    <string name="step1_lastname">*Last Name</string>
+    <string name="step1_gender">*Gender</string>
+    <string name="step1_dob">*Date of birth</string>
+    <string name="step1_address">*Address</string>
+    <string name="step1_mobilenumber">*Mobile Number</string>
+    <string name="step1_alternatenumber">Alternate Number</string>
+    <string name="step1_city">*City</string>
+    <string name="step1_pincode">*Pincode</string>
+    <string name="step1_emailid">*Email ID</string>
+    <string name="step1_passport">Passport No.</string>
+    <string name="step1_passportexpdate">Passport Expiry Date</string>
+    <string name="step2_emgname">*Emergency Contact Name</string>
+    <string name="step2_emgnumber">*Emergency Contact Number</string>
+    <string name="step3_season">*Season</string>
+    <string name="step3_roompreference">*Room Preference</string>
+    <string name="step4_paymentnumber">*Reference No.</string>
+    <string name="step4_paymentdate">*Date</string>
+    <string name="step5_1">1.</string>
+    <string name="step5_2">2.</string>
+    <string name="step5_passport"> Upload Passport</string>
+    <string name="step5_idproof">*Upload ID proof</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="summary">Summary</string>
+
+    // State List
+
+    <string name="error_msg_network">Network is not available.</string>
+    <string name="error_service_unavailable">Service unavailable</string>
+    <string name="error_no_records">No records found.</string>
+    <string name="error_internal_server">Internal server error</string>
+
+    <!--Modified By Jadav Chirag-->
+    <string name="str_personal_name_digits">qwertzuiopasdfghjklyxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="title_activity_navigation">Nebula</string>
+
+    <!--Navigation Drawer.-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_my_trip">My Trips</string>
+    <string name="nav_gallery">Attractions</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_t_and_c">Terms &amp; Conditions</string>
+    <string name="nav_faq">FAQs</string>
+    <string name="nav_reviews">Reviews</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_share_it">Share It</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_documents">Documents</string>
+    <string name="holiday_list">Holiday Packages</string>
+
+    <string name="str_loading">Loading</string>
+    <string name="str_package_first_day">Thailand \n(Bangkok/Pattaya)</string>
+    <string name="str_free_wifi">Free Wifi</string>
+    <string name="str_restaurant">Restaurant</string>
+    <string name="str_breakfast">Breakfast</string>
+    <string name="str_more_amenities">8+</string>
+    <string name="str_amenities">Amenities</string>
+    <string name="str_details">Standard King Room, Hotels 3 Star or more, Meals include breakfast and dinner.</string>
+
+    <!--Package Details-->
+    <string name="str_bought_count">271 Bought</string>
+    <string name="str_hotel">Hotels</string>
+    <string name="str_meal_title">Meals</string>
+    <string name="str_included">included</string>
+    <string name="str_sightseeing">Sightseeing</string>
+    <string name="str_cites_included">CITIES INCLUDED</string>
+    <string name="title_activity_scrolling">Thailand</string>
+    <string name="title_activity_scrolling_dwarka">Dwarka</string>
+    <string name="str_duration">5 Days \n 4 Nights</string>
+
+    <!--Inclusion Summary-->
+    <string name="str_inclusion_summary">Inclusions summary</string>
+    <string name="str_tap_to_view_details">Tap to view details</string>
+    <string name="str_transfers">Transfers</string>
+    <string name="str_other_inclusion_title">Inclusions</string>
+
+    <string name="str_view_more">View more</string>
+    <string name="str_view_less">View less</string>
+    <string name="str_read_more">Read More</string>
+    <string name="str_itinerary_title">Itinerary - 5 Days</string>
+    <string name="str_view_complete_itinerary">View complete itinerary</string>
+
+    <!--Itinerary Details-->
+    <string name="str_day">Day </string>
+    <string name="str_season_one">Season - 1</string>
+    <string name="str_season_two">Season - 2</string>
+    <string name="str_select_date">Select Date</string>
+
+    //login string
+    <string name="enter_username">Enter Username</string>
+    <string name="write_review">Write review...</string>
+    <string name="video">Videos</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    // Reviews
+    <string name="give_one_rate">Poor</string>
+    <string name="give_two_rate">Average</string>
+    <string name="give_three_rate">Good</string>
+    <string name="give_four_rate">Very good</string>
+    <string name="give_five_rate">Excellent</string>
+    <string name="write_submit">SUBMIT</string>
+
+    <string name="prompt_more_details">More Details</string>
+    <string name="prompt_download">Download</string>
+    <string name="prompt_share">Share</string>
+    <string name="prompt_hotel_overview">Hotel Overview</string>
+    <string name="prompt_read_less">Read Less</string>
+    <string name="prompt_places_to_visit">Places to visit</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <!--Thailand Holiday  -->
+
+    <string name="give_storage_permission">Please give storage permission from settings</string>
+    <string name="income">Income</string>
+    <string name="amount">Amount</string>
+
+    <string name="dv_title">Dv</string>
+    <string name="dv_redeemed">DV Redeemed</string>
+    <string name="dream_volume">Dream Volume</string>
+    <string name="star_pool_income">Star Pool Income</string>
+    <string name="three_star_pool_income">3 Star Pool Income</string>
+
+    <string name="aavaas_miyapur_title">Aavaas (Miyapur), Hyderabad</string>
+
+    //translation is required
+    <string name="ibo_login">IBO Office</string>
+    <string name="other">Others</string>
+    <string name="rank_history">Rank History</string>
+    <string name="income_history">Income History</string>
+    <string name="bv1">BV</string>
+    <string name="next_bv">Next BV</string>
+    <string name="monthly_bv">Monthly BV</string>
+    <string name="personal_updates">Your Updates</string>
+    <string name="team_updates">Team Updates</string>
+    <string name="new_joinees">New Joinees</string>
+    <string name="downline_ranks">Downline Ranks</string>
+    <string name="family_view">Family View</string>
+    <string name="ibo_list">IBO List</string>
+
+    <string name="prompt_personal_info">Personal Detail</string>
+    <string name="prompt_bank_info">Bank Detail</string>
+    <string name="prompt_member_id">Member ID : \t</string>
+    <string name="prompt_member_rank">Member Rank : \t </string>
+    <string name="prompt_ibo_name">Name : \t </string>
+    <string name="prompt_phone_no">Phone Number : \t </string>
+    <string name="prompt_email_id">Email ID : \t </string>
+    <string name="prompt_date_of_join">Date Of Joining : \t </string>
+    <string name="prompt_gender">Gender : \t </string>
+    <string name="prompt_address">Address : \t </string>
+    <string name="prompt_bank">Bank : \t </string>
+    <string name="prompt_branch">Branch : \t </string>
+    <string name="prompt_bank_city">Branch City : \t </string>
+    <string name="prompt_ifsc_code">IFSC Code : \t </string>
+    <string name="prompt_account_holder">Account Holder : \t </string>
+    <string name="prompt_account_no">Account No. : \t </string>
+
+    <!--IBO GEO Location-->
+    <string name="prompt_your_location">Your Detected Location</string>
+    <string name="prompt_ibo_geo_location">Geo Location</string>
+    <!--End-->
+
+    //Holiday
+    <string name="travel_name">Travel Name</string>
+    <string name="package_status">Package Status</string>
+    <string name="downline_name">Name</string>
+
+    <string name="sponsor_id_sales">Sponsored ID</string>
+    <string name="customer_sales">Customer Sales</string>
+    <string name="moblie">Phone</string>
+    <string name="achiever_income">Achiever Income</string>
+    <string name="achiever_sales">Achiever Sales</string>
+    <string name="achiever_bonus">Select your achiever bonus: </string>
+    <string name="achiever_bonus1">Flight Ticket</string>
+    <string name="achiever_bonus2">\u20B9 17,000/-</string>
+
+    //Dashboard
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_my_sales">My Sales</string>
+    <string name="nav_my_income">My Income</string>
+    <string name="nav_projections">Projections</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_booking_form">Holiday Booking Form</string>
+    <string name="nav_temp_booking">Temp Booking </string>
+    <string name="nav_associate">Join an Associate</string>
+    <string name="nav_promotions" translatable="false">Promotions</string>
+    <string name="nav_genealogy">Genealogy</string>
+    <string name="nav_family_view">Family View</string>
+    <string name="nav_ibo_list">IBO List</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_my_profile">My Profile</string>
+
+    <string name="sr_no">Sr No</string>
+
+    <string name="prompt_error_request_cancelled">Your request has cancelled</string>
+    <!--Payment Summary-->
+    <string name="prompt_traveller_type" translatable="false">Traveller Type</string>
+    <string name="prompt_ibo_id" translatable="false">IBO ID</string>
+    <string name="prompt_mobile" translatable="false">Mobile</string>
+    <string name="prompt_address_details" translatable="false">Address</string>
+    <string name="prompt_booking_id" translatable="false">Booking ID</string>
+    <string name="prompt_paid_amount" translatable="false">Amount Paid</string>
+    <string name="prompt_transaction_no" translatable="false">Transaction No</string>
+    <string name="prompt_arrival_date">Arrival Date</string>
+
+    <!--Your payment has been processed successfully and your booking is confirmed. Please check your email for booking details."-->
+    <!--End Modification-->
+
+    <string name="prompt_pay_now">Pay Now</string>
+    <!--Merchant -->
+    <string name="prompt_redirect_url" translatable="false">https://nebulacompanies.net/API/PaymentGateway/ccavResponseHandler</string>
+    <string name="key_value_access_code" translatable="false">AVLZ78FF59BA91ZLAB</string> <!-- AVCO76FC73AS62OCSA</string>--> <!--AVLZ78FF59BA91ZLAB-->
+    <string name="key_value_merchant_id" translatable="false">169180</string>
+    <string name="key_value_currency" translatable="false">INR</string>
+    <string name="prompt_please_wait" translatable="false">Please wait..</string>
+    <string name="prompt_holiday_payment" translatable="false">Nebula Holiday Payment</string>
+    <string name="prompt_holiday_booking" translatable="false">Transaction Holiday Booking</string>
+    <string name="prompt_holiday_date" translatable="true">Transaction Date Selection</string>
+    <string name="prompt_holiday_name_change" translatable="true">Transaction Name Change</string>
+    <string name="prompt_payment_message" translatable="true">\u2713 Paid Amount INR 16800</string>
+    <string name="prompt_thank_you_message" translatable="false">Your payment has been processed successfully and your booking is confirmed. Please check your email for booking details.</string>
+    <string name="prompt_more_click">5 Days, 4 nights Thailand (Bangkok/Pattaya) Package for details of Hotel,Other Amenities and T&amp;C Click Here.</string>
+
+    <string name="my_dv">My DV: </string>
+    <string name="nvtoken">NV Token</string>
+    <string name="nvdp">NV Down Payment</string>
+    <string name="nvbankloan">NV Bank Loan</string>
+    <string name="emi_date">EMI Date</string>
+    <string name="cust_login">Customer login</string>
+    <string name="give_sms_permission" translatable="false">Please give sms permission from settings</string>
+
+
+    <!--Customer Booking-->
+
+
+    <string name="prompt_first_applicant_detail_one" translatable="false">First Applicant Detail 1</string>
+    <string name="prompt_first_applicant_detail_two" translatable="false">First Applicant Detail 2</string>
+    <string name="prompt_second_applicant_detail_one" translatable="false">Second Applicant Detail 1</string>
+    <string name="prompt_second_applicant_detail_two" translatable="false">Second Applicant Detail 2</string>
+    <string name="prompt_upload_document" translatable="false">Documents</string>
+
+
+    <string name="prompt_next" translatable="false">next</string>
+    <string name="prompt_submit_request_form" translatable="false">Submit Form</string>
+
+    <string name="prompt_project" translatable="false">Select project</string>
+    <string name="prompt_floor" translatable="false">Select Floor</string>
+    <string name="prompt_unit_type" translatable="false">Unit Type</string>
+
+    <!--<string name="error_service_unavailable">Service unavailable</string>
+    <string name="error_no_records">No records found.</string>-->
+
+    <string name="prompt_first_name" translatable="false">First Name*</string>
+    <string name="prompt_middle_name" translatable="false">Middle Name</string>
+    <string name="prompt_last_name" translatable="false">Last Name*</string>
+    <string name="prompt_relation_name" translatable="false">Name*</string>
+    <string name="prompt_dob" translatable="false">Date of Birth*</string>
+    <string name="prompt_profession" translatable="false">Profession</string>
+    <string name="prompt_designation" translatable="false">Designation</string>
+    <string name="prompt_marital" translatable="false">Marital Status*</string>
+    <string name="prompt_residential_status" translatable="false">Residential Status*</string>
+    <string name="prompt_company_name" translatable="false">Company/Firm Name</string>
+    <string name="prompt_no_of_child" translatable="false">No. of Children</string>
+
+
+    <string name="prompt_communication_address" translatable="false">Communication Address*</string>
+    <string name="prompt_address_residential" translatable="false">Residential Address*</string>
+    <string name="prompt_city" translatable="false">City*</string>
+
+
+    <string name="prompt_tel_residential" translatable="false">Tel. Residential</string>
+    <string name="prompt_office" translatable="false">Office*</string>
+    <string name="prompt_mobile_number" translatable="false">Mobile*</string>
+    <string name="prompt_fax" translatable="false">Fax</string>
+    <string name="prompt_email" translatable="false">Email</string>
+
+    <string name="str_name_digits" translatable="false">qwertzuiopasdfghjklyxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+
+    <string name="prompt_Aadhaar" translatable="false">Aadhaar number*</string>
+    <string name="prompt_pan" translatable="false">PAN number*</string>
+
+    <string name="prompt_first_applicant_photo" translatable="false">1<sup><small>st</small></sup> Applicant Photo</string><!--1<sup><small>st</small></sup>-->
+    <string name="prompt_second_applicant_photo" translatable="false">2<sup><small>nd</small></sup> Applicant Photo</string>
+
+    <string name="prompt_first_applicant" translatable="false">1<sup><small>st</small></sup> Applicant</string>
+    <string name="prompt_second_applicant" translatable="false">2<sup><small>nd</small></sup> Applicant</string>
+    <string name="prompt_same_as_above" translatable="false">Same as Above</string>
+
+
+    <string name="error_first_name" translatable="false">First name can\'t be blank.</string>
+    <string name="error_last_name" translatable="false">Last name can\t be blank.</string>
+    <string name="error_name" translatable="false">Name can\t be blank.</string>
+    <string name="error_dob" translatable="false">Date of birth can\t be blank.</string>
+    <string name="error_residential_address" translatable="false">Residential address cant\t be blank.</string>
+    <string name="error_residential_city" translatable="false">City can\t be blank.</string>
+    <string name="error_office_number" translatable="false">This is required.</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_mobile" translatable="false">Mobile number can\t be blank.</string>
+    <string name="error_id_proof" translatable="false">This number can\t be blank.</string>
+    <string name="error_invalid_mobile" translatable="false">Invalid Mobile no.</string>
+    <string name="error_invalid_number" translatable="false">This office number is invalid</string>
+
+    <string name="account_balance" translatable="false"></string>
+    <string name="balance_currency" translatable="false"></string>
+    <string name="balance_amount" translatable="false"></string>
+
+    <string name="prompt_service_request_no" translatable="false">Enter service request number</string>
+    <string name="str_service_request_no" translatable="false">Check the status of your service request.</string>
+
+
+    <!-- <string name="login">Login</string>
+     <string name="cancel">Cancel</string>-->
+    <string name="OTP" translatable="false">Enter OTP</string>
+    <string name="Username" translatable="false">Username</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="forgot_your_password" translatable="false">Generate my password</string>
+
+    <string name="error_user_name" translatable="false">Username can\'t be blank.</string>
+    <string name="error_password" translatable="false">Password can\'t be blank.</string>
+    <string name="error_otp" translatable="false">Please Enter OTP!</string>
+    <!--<string name="prompt_more_details">More details</string>-->
+
+    <string name="error_block_no" translatable="false">Please enter your block id.</string>
+    <string name="error_flat_no" translatable="false">Please enter your flat no.</string>
+
+    <string name="prompt_plc" translatable="false">PLC : </string>
+    <string name="prompt_pending_emi" translatable="false">Pending Down PaymentEMI :</string>
+
+    <string name="content_project_name" translatable="false">Your selected project.</string>
+
+    <string name="error_unit_detail" translatable="false">Unit detail appear here.</string>
+
+
+    <!--Request Permission & Message-->
+
+    <!--<string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+    <string name="permission_rationale_access">Nebula App permissions are needed for providing email,documents and contacts completions.</string>
+-->
+    <!-- <string name="navigation_drawer_open">Open navigation drawer</string>
+     <string name="navigation_drawer_close">Close navigation drawer</string>
+ -->
+    <!--<string name="nav_dashboard">Dashboard</string>-->
+    <string name="nav_my_account" translatable="false">My Account</string>
+    <string name="nav_units" translatable="false">Units</string>
+    <!-- <string name="nav_logout">Logout</string>
+     <string name="nav_login">Login</string>-->
+
+    <!--My Account Applicant Details-->
+    <string name="prompt_applicant" translatable="false">Applicants</string>
+    <string name="prompt_how_to_apply" translatable="false">How to Register</string>
+    <string name="prompt_new_register" translatable="false">New Booking? Register here</string>
+    <string name="prompt_booking_request" translatable="false">Booking Requests</string>
+    <string name="prompt_sign" translatable="false">Sign in to Nebula</string>
+    <string name="error_services_request" translatable="false">Please enter your service request number</string>
+
+    <string name="prompt_upload_loan_documents" translatable="false">\u2713 Upload Loan Documents</string>
+    <string name="prompt_booking_documents" translatable="false">\u2713 Upload Booking Documents</string>
+
+    <!--Loan documents upload-->
+    <!--Add-on /CO-APPLICANT-->
+
+    <!--Monthly take home salary-->
+    <!--YearsTotal work experience-->
+    <!--<string name="prompt_bank">Bank</string>-->
+    <!--Businessman-->
+
+    <string name="key_search_tag" translatable="false">SearchTag</string>
+
+    <!--ROW EMI Details -->
+    <string name="prompt_rs" translatable="false">\u20B9</string>
+    <string name="prompt_brochure" translatable="false"><u>Brochure</u></string>
+
+    <string name="sv_income" translatable="false">SV</string>
+
+    <string name="enter_block_no" translatable="false">Block</string>
+    <string name="enter_flat_no" translatable="false">Flat no.</string>
+    <string name="enter_block_flat" translatable="false">Enter Block and Enter Flat</string>
+
+    <string name="For" translatable="false">For</string>
+    <string name="Rank_bouns" translatable="false">Rank Bouns</string>
+    <string name="Sponsor_Income" translatable="false">Sponsor Income</string>
+    <string name="platinumRankBonus" translatable="false">Platinum Rank Bonus</string>
+    <string name="starPlatinumRankBonus" translatable="false">Star Platinum Rank Bonus</string>
+    <string name="site_office_sanand_address" translatable="false">Bopal - Sanand bypass Road, Near Muni Bapu Ashram, Near Kalhaar Blues &amp; Greens, Sanand, Ahmedabad - 382 110</string>
+    <string name="site_office_sanand">SITE OFFICE, SANAND</string>
+
+
+    <string name="icon_email">&#xf0e0;</string>
+    <string name="icon_home">&#xf015;</string>
+    <string name="icon_user">&#xf007;</string>
+    <string name="icon_peding">&#xf2b6;</string>
+    <string name="icon_heart">&#xf0045;</string>
+
+
+    <string name="invalid_block" translatable="false">Invalid BlockNo!!!</string>
+    <string name="invalid_flat" translatable="false">Invalid FlatNo !!!</string>
+
+
+
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA-V5eR1weO-e7UANR3uFX1GzXPX6E4yjY</string>
+</resources>

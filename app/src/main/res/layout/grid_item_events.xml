@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <com.nebulacompanies.nebula.view.SquareImageView
+        android:id="@+id/picture1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+<!--    <cn.jzvd.AVLoadingIndicatorView-->
+<!--        android:id="@+id/aviLoadingPackageSiteProgres"-->
+<!--        style="@style/AVLoadingIndicatorView.Small"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:visibility="gone"-->
+<!--        app:indicatorColor="@color/colorTransparent"-->
+<!--        app:indicatorName="BallPulseIndicator" />-->
+</RelativeLayout>

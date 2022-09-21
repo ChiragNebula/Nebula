@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@android:color/black">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        grid:columnCount="3"
+        grid:rowCount="5"
+        android:background="@android:color/black">
+
+        <LinearLayout
+            android:id="@+id/company_profile"
+            grid:layout_row="0"
+            grid:layout_column="0"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="4"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/comp_pro"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:src="@drawable/company_profile_1"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/com"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/one"
+                android:text="@string/company_profile"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:maxLength="15"
+                android:ellipsize="end"
+                android:maxLines="1"
+
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/products_"
+            grid:layout_row="0"
+            grid:layout_column="1"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/prodct"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:src="@drawable/products_1"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/two"
+                android:layout_gravity="center"
+                android:layout_weight="0.15"
+                android:paddingEnd="3dp"
+                android:text="@string/projects_"
+                android:maxLength="11"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/multi_langs"
+            grid:layout_row="0"
+            grid:layout_column="2"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/lang"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/three_new"
+                android:layout_width="55dp"
+                android:layout_height="0dp"
+                android:src="@drawable/language"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/fb_new"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/three_new"
+                android:text="@string/language"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:maxLength="8"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/events"
+            grid:layout_row="1"
+            grid:layout_column="0"
+            grid:layout_columnWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_rowWeight="4"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/event"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:src="@drawable/events_1"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/eve"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/four"
+                android:text="@string/events"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:maxLength="6"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/videos"
+            grid:layout_row="1"
+            grid:layout_column="1"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="2"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/video"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:src="@drawable/videos_1"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/vid"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/five"
+                android:text="@string/videos"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:maxLength="6"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/nebula_logo"
+
+            android:layout_height="87dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/logo"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:weightSum="1"
+            grid:layout_column="0"
+            grid:layout_columnSpan="1"
+            grid:layout_columnWeight="2"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            grid:layout_row="3"
+            grid:layout_rowSpan="1"
+            grid:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/nebula_logo" />
+
+        </LinearLayout>
+
+        <!--   <LinearLayout
+               android:id="@+id/vacation_thailand"
+               grid:layout_row="3"
+               grid:layout_column="1"
+               grid:layout_columnWeight="2"
+               grid:layout_rowWeight="1"
+               grid:layout_rowSpan="1"
+               grid:layout_columnSpan="2"
+               android:visibility="gone"
+               grid:layout_gravity="fill_horizontal|fill_vertical"
+               android:background="@drawable/vacation_drawable"
+               android:orientation="vertical"
+               android:weightSum="1"
+               android:layout_margin="3dp"
+               android:clickable="true">
+
+               <RelativeLayout
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:layout_weight="1"
+                   android:layout_gravity="center"
+
+                   android:gravity="center">
+
+                   <pl.droidsonroids.gif.GifImageView
+                       android:id="@+id/thai_icon"
+                       android:layout_width="48dp"
+                       android:layout_height="50dp"
+                       android:src="@drawable/thailand_trip_gif"
+                       android:layout_gravity="start"
+                       android:layout_alignParentStart="true"
+                       android:layout_centerInParent="true"
+                       android:layout_alignParentLeft="true" />
+
+                   <com.nebulacompanies.nebula.view.MyTextView
+                       android:id="@+id/thai_text"
+                       android:layout_width="wrap_content"
+                       android:layout_height="50dp"
+                       android:layout_toEndOf="@id/thai_icon"
+                       android:text="@string/thailand_trip"
+                       android:textColor="@android:color/white"
+                       android:layout_gravity="center"
+                       android:paddingEnd="3dp"
+                       android:textAlignment="gravity"
+                       android:gravity="center"
+                       android:layout_marginStart="10dp"
+                       android:maxLength="16"
+                       android:ellipsize="end"
+                       android:maxLines="1"
+                       android:layout_centerInParent="true"
+                       android:paddingRight="3dp"
+                       android:layout_marginLeft="10dp"
+                       android:layout_toRightOf="@id/thai_icon"
+                       android:textSize="@dimen/dimen_normal_callibri"/>
+
+               </RelativeLayout>
+
+           </LinearLayout>-->
+
+        <LinearLayout
+            grid:layout_row="2"
+            grid:layout_column="0"
+            grid:layout_columnWeight="3"
+            grid:layout_rowWeight="5"
+            grid:layout_columnSpan="3"
+            grid:layout_rowSpan="1"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="100dp"
+            android:layout_margin="3dp">
+
+            <!-- <LinearLayout
+                 android:id="@+id/ibo_layout"
+                 android:layout_height="fill_parent"
+                 android:layout_width="fill_parent"
+                 android:layout_weight="1"
+                 android:layout_gravity="center"
+                 android:background="@drawable/login_drawable"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 android:padding="@dimen/dimen_ten_dp"
+                 android:visibility="gone"
+                 android:clickable="true">
+
+                 <ImageView
+                     android:id="@+id/ibo_icon"
+                     android:src="@drawable/ibo_login"
+                     android:layout_width="40dp"
+                     android:layout_height="60dp"
+                     android:layout_gravity="center" />
+
+                 <com.nebulacompanies.nebula.view.MyTextView
+                     android:id="@+id/ibo_text"
+                     android:layout_width="wrap_content"
+                     android:layout_height="50dp"
+                     android:text="@string/ibo_login"
+                     android:textColor="@android:color/white"
+                     android:layout_gravity="center"
+                     android:paddingEnd="3dp"
+                     android:textAlignment="gravity"
+                     android:gravity="center"
+                     android:maxLength="10"
+                     android:ellipsize="end"
+                     android:maxLines="1"
+                     android:layout_marginStart="10dp"
+                     android:paddingRight="3dp"
+                     android:layout_marginLeft="10dp"
+                     android:textSize="@dimen/dimen_normal_callibri"/>
+
+             </LinearLayout>
+ -->
+
+            <LinearLayout
+                android:id="@+id/customer_booking_layout"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/cust_login_drawable"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/cust_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_account_circle_white_24dp" />
+
+                <com.nebulacompanies.nebula.view.MyTextView
+                    android:id="@+id/cust_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/cust_login"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:paddingEnd="3dp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:maxLength="14"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_marginStart="10dp"
+                    android:paddingRight="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/dimen_normal_callibri"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:id="@+id/newsletters"
+            android:minHeight="70dp"
+            android:layout_height="70dp"
+            grid:layout_row="2"
+            grid:layout_column="2"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/newle"
+            android:orientation="vertical"
+            android:weightSum="0.4"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/eleven"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:src="@drawable/newsletters_1"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/news"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/eleven"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:text="@string/newsletters"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_normal_callibri" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/facebook_feeds"
+            grid:layout_row="4"
+            grid:layout_column="0"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/ebro"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="55dp"
+                android:layout_height="0dp"
+                android:src="@drawable/ebrochure"
+                android:layout_gravity="center"
+                android:layout_weight="0.85"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/three"
+                android:text="@string/edocs"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:maxLength="14"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/siteprogress"
+            android:layout_margin="3dp"
+            android:background="@drawable/sitep"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:weightSum="1"
+            grid:layout_column="1"
+            grid:layout_columnSpan="2"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            grid:layout_row="3"
+            grid:layout_rowSpan="1"
+            grid:layout_rowWeight="1">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_marginTop="15dp"
+                android:layout_width="25dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"/>
+
+            <ImageView
+                android:id="@+id/twelve"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:src="@drawable/site_progress" />
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/site"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:paddingEnd="3dp"
+                android:maxLength="13"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingRight="3dp"
+                android:text="@string/site_progress"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.15"
+                android:textSize="@dimen/dimen_normal_callibri"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contact_us"
+            grid:layout_row="4"
+            grid:layout_column="1"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_columnSpan="1"
+            grid:layout_rowSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/cont"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_marginTop="15dp"
+                android:layout_width="25dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"/>
+
+            <ImageView
+                android:id="@+id/nine"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:src="@drawable/contact_us_1" />
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/cu"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/nine"
+                android:text="@string/contact_us"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:paddingEnd="3dp"
+                android:maxLength="16"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/notifications"
+            grid:layout_row="4"
+            grid:layout_column="2"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_rowSpan="1"
+            grid:layout_columnSpan="1"
+            grid:layout_gravity="fill_horizontal|fill_vertical"
+            android:background="@drawable/notification"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_margin="3dp"
+            android:clickable="true">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/badge"
+                android:background="@drawable/badge_circle"
+                android:layout_width="25dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#faf7f7"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="invisible"
+                android:layout_marginRight="15dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+
+            <ImageView
+                android:id="@+id/ten"
+                android:layout_width="45dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:src="@drawable/notifications_1"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/noti"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_below="@id/ten"
+                android:text="@string/notifications"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:paddingEnd="3dp"
+                android:maxLength="13"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="0.15"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/dimen_normal_callibri"/>
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
+</ScrollView>

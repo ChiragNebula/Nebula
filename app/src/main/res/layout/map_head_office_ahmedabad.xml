@@ -1,0 +1,312 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/nebula">
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head_office_ahmedabad"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:padding="5dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/map" />
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/address_titlews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_address"
+            android:textColor="@color/nebula"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/phone"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:weightSum="1">
+
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/phone_number1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textColor="@color/nebula"
+                android:textSize="14dp"
+                android:background="@drawable/nebula_effect"
+                android:layout_marginLeft="5dp" />
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/phone_number2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toll_free_phone_number"
+                android:textColor="@color/nebula"
+                android:textSize="14dp"
+                android:background="@drawable/nebula_effect"
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/fax" />
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/output_fax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_fax_number"
+            android:textColor="@color/nebula"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/email"/>
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_email"
+            android:textColor="@color/nebula"
+            android:textSize="14dp"
+            android:background="@drawable/nebula_effect"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/linearlayoutmap"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/nebula">
+
+        <TextView
+            android:id="@+id/address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head_office_ahmedabad"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/map1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/map"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/address_titlews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_address"
+            android:textColor="@color/nebula"
+            android:textSize="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/phone1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/phone"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/numbers"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:weightSum="1"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/phone_number1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textColor="@color/nebula"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/phone_number2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/office_phone_number2"
+                android:textColor="@color/nebula"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faxlayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/fax1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/fax"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/output_fax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_fax_number"
+            android:textColor="@color/nebula"
+            android:textSize="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emaillayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/mail1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/email"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="@string/office_email"
+            android:textColor="@color/nebula"
+            android:textSize="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>-->

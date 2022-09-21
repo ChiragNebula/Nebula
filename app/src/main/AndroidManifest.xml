@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nebulacompanies.nebula">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+<!--    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />-->
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+<!--    -->
+<!--    <permission-->
+<!--        android:name="com.nebulacompanies.nebula.permission.MAPS_RECEIVE"-->
+<!--        android:protectionLevel="signature"/>-->
+<!--    <uses-permission  android:name="com.nebulacompanies.nebula.permission.MAPS_RECEIVE"/>-->
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nebula_launcher"
+        android:label="@string/app_name"
+        tools:replace="android:icon,android:theme"
+        android:roundIcon="@mipmap/nebula_launcher"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        tools:ignore="HardcodedDebugMode"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.NebulaCC">
+        <activity
+            android:name=".StartUp"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NebulaCC.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".gui.CompanyProfile"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".gui.ProductDescriptionAavaas"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".gui.Products"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".GuestActivity"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".CustomerBooking.Utils.UI.Activity.CustomerBookingNavigationActivity"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".gui.CompanyEvents"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".gui.ShowFullScreenEvents"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".gui.ViewEvents"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+
+        <activity
+            android:name=".gui.SiteProducts"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".gui.SiteProgress"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <activity
+            android:name=".gui.ViewSiteProgress"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".gui.ContactUs"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name=".login.ActivityLogin"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name=".login.ActivityOTP"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name=".gui.Notifications"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".gui.ShowNotificationImage"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+
+        <activity
+            android:name=".gui.ShowFullScreenSiteProgress"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+
+
+        <activity
+            android:name=".gui.EDocuments"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name=".gui.NebulaActivity"
+            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name=".gui.CompanyVideos"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".gui.CompanyVideoList"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+
+        <activity
+            android:name=".gui.FullScreenSwipeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.AppCompat" />
+
+        <receiver android:name=".broadcast.SmsBroadcastReceiver" android:exported="true"
+            android:permission="com.google.android.gms.auth.api.phone.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".broadcast.OTPBroadCastReceiver"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.nebulacompanies.nebula.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

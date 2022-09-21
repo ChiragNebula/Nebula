@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProjectUnit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <!--android:background="@drawable/drawable_rounded_border"-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:scaleType="fitEnd"
+            android:src="@drawable/background_theme" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_five_dp">
+
+        <LinearLayout
+            android:id="@+id/llProjectDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:clickable="false"
+            android:contentDescription="@string/content_project_name"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_units_home" />
+
+            <TextView
+                android:id="@+id/txtProjectTitle"
+                style="@style/styleTextViewLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/colorAccentNav"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:padding="@dimen/dimen_five_dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_customer" />
+
+                <TextView
+                    android:id="@+id/txtFirstName"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:padding="@dimen/dimen_five_dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icons_house" />
+
+                <TextView
+                    android:id="@+id/txtUnitInfo"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical" />
+
+                <!-- <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:clickable="false"
+                     android:scaleType="fitCenter"
+                     android:src="@drawable/icons_caretaker" />
+
+                 <TextView
+                     android:id="@+id/txtIBODetails"
+                     style="@style/styleTextViewLabel"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="5dp"
+                     android:layout_marginTop="0dp"
+                     android:autoLink="all"
+                     android:clickable="true"
+                     android:drawablePadding="0dp"
+                     android:gravity="center_vertical"
+                     android:textColor="@color/colorAccentNav" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:clickable="false"
+            android:contentDescription=""
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icons_house" />
+
+                <TextView
+                    android:id="@+id/txtIBODetails"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorAccentNav" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPendingEMI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:clickable="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icons_pending_card" />
+
+                <TextView
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/prompt_pending_emi"
+                    android:textColor="@color/colorAccentNav"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPendingEMI"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorAccentNav"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:layout_weight="1"
+            android:clickable="false">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_agreement" />
+
+            <TextView
+                style="@style/styleTextViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                android:text="AFS (Agreement for Sale) Status : " />
+
+            <ImageView
+                android:id="@+id/imgAFSStatus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_check" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_payment_plan" />
+
+            <TextView
+                android:id="@+id/txtPaymentPlan"
+                style="@style/styleTextViewLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_loan_documents" />
+
+            <TextView
+                android:id="@+id/txtLoanDocs"
+                style="@style/styleTextViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                android:text="Loan Documents Status "
+                android:textColor="@color/colorAccentNav" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_surface" />
+
+            <TextView
+                android:id="@+id/txtAreaRatePLCLabel"
+                style="@style/styleTextViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                android:text="(Area X Rate ) + PLC :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAreaRatePLC"
+                style="@style/styleTextViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:clickable="false"
+                android:drawablePadding="0dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="56.86 X 8,52,900 + 120" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:contentDescription=""
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:clickable="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_surface" />
+
+                <TextView
+                    android:id="@+id/txtConstArea"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <!--<TextView
+                    android:id="@+id/txtConstArea"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:text="12345" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="false">
+
+                <TextView
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/prompt_plc"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPLC"
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:clickable="false"
+                    android:drawablePadding="0dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="0dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

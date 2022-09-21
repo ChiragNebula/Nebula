@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/half_round_bg"
+            android:padding="10dp">
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp">
+
+            </com.nebulacompanies.nebula.view.MyBoldTextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:orientation="vertical">
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Enter your block and flat no. to get OTP \n on your registered mobile no."
+                android:textColor="@color/otp_text_bg"
+                android:textSize="16sp">
+
+            </com.nebulacompanies.nebula.view.MyBoldTextView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/edtBlockId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/enter_block_no"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                    android:inputType="textCapSentences"
+                    android:longClickable="false"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="14sp"
+                    android:imeOptions="actionNext"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="1"
+                    android:maxLength="4"
+                    android:background="@drawable/drawable_edittext_bg"
+                     />
+
+
+                <EditText
+                    android:id="@+id/edtFlatNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="60dp"
+                    android:background="@drawable/drawable_edittext_bg"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/enter_flat_no"
+                    android:inputType="number"
+                    android:longClickable="false"
+                    android:paddingLeft="15dp"
+                    android:maxLength="5"
+                    android:paddingTop="10dp"
+                    android:imeOptions="actionDone"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:selectAllOnFocus="true" />
+
+
+
+            </LinearLayout>
+
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/txt_NeedHelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textSize="14sp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorBlack"
+                android:text="Need help?">
+
+            </com.nebulacompanies.nebula.view.MyBoldTextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center|top"
+                android:gravity="center|top"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2">
+
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:text="@string/continues"
+                    android:textColor="@color/white"
+                    android:background="@drawable/round_bg_button"
+                    android:layout_weight="2">
+
+                </Button>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_sent">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="10dp"
+        android:layout_marginTop="5dp">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:id="@+id/pacifica_img"
+        android:layout_weight="0.6"
+        android:layout_gravity="center"
+        android:src="@drawable/pacifica_logo"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/pacifica_dir"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dirtext1"
+                android:text="Rocky Israni"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="@dimen/dimen_small_callibri"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shortdesc1"
+            android:text="@string/pacifica_view"
+            android:background="@android:drawable/editbox_background_normal"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_normal_callibri"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background_normal"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exp1"
+            android:text="@string/expertise"
+            android:textColor="@color/facebook_feeds"
+            android:textSize="@dimen/dimen_normal_callibri"/>
+
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shortdesctext1"
+            android:text="@string/expertise_pacifica"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="@dimen/dimen_normal_callibri"
+            android:layout_marginTop="5dp"/>
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    </ScrollView>

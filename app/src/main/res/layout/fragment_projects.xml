@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/projects_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/layout_empty_view"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/projects_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="2"
+        android:smoothScrollbar="true"
+        android:fastScrollEnabled="true"
+        android:drawSelectorOnTop="true"
+        android:background="@android:color/transparent" />
+
+</FrameLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/site_progress_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/product_description_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat"
+            app:theme="@style/ToolBarStyle"
+            app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/product_description_toolbar"
+            android:fadeScrollbars="false">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ln_product_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/tv_product_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/project_info_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.nebulacompanies.nebula.view.MyTextView
+                            android:id="@+id/aavaas_main"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/sub_toolbar"
+                            android:padding="5dp"
+                            android:text="@string/Aavaas"
+                            android:textAlignment="gravity"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/dimen_thirteen_sp"
+                            android:textStyle="bold" />
+
+                        <com.nebulacompanies.nebula.view.MyTextView
+                            android:id="@+id/aavaas_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="@dimen/dimen_ten_dp"
+                            android:layout_marginEnd="10dp"
+                            android:paddingBottom="3dp"
+                            android:textColor="@color/color_texts"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <com.nebulacompanies.nebula.view.MyTextView
+                            android:id="@+id/aavaas_highlights"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_ten_dp"
+                            android:background="@color/sub_toolbar"
+                            android:padding="5dp"
+                            android:text="@string/project_highlights"
+                            android:textAlignment="gravity"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/dimen_thirteen_sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_ten_dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/img_one"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/img_two"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/img_three"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+                            android:visibility="gone">
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="5dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/img_four"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/img_five"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/img_six"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+                            android:visibility="gone">
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="5dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/abad_highlights6"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_texts"
+                                android:textSize="@dimen/dimen_eleven_sp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycler_view_product_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:scrollbars="vertical" />
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/layout_empty_view"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

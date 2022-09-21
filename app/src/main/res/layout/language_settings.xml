@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp">
+
+    <com.nebulacompanies.nebula.view.MyTextView
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:text="@string/title_app_lan"
+        android:textSize="20dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:background="@color/nebula"
+        android:layout_height="50dp"
+        android:id="@+id/textViewtitle"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/nebula"
+        android:layout_height="2dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <RadioButton
+            android:id="@+id/option1"
+            android:padding="5dp"
+            android:buttonTint="@color/nebula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="@string/lang_english" />
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/option2"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:buttonTint="@color/nebula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/lang_hindi" />
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:buttonTint="@color/nebula"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/lang_telugu" />
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:buttonTint="@color/nebula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/lang_gujarati" />
+        <RadioButton
+            android:id="@+id/option5"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:buttonTint="@color/nebula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/lang_tamil" />
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/cancel_for_lang"
+        android:text="@string/cancel"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nebula_button_eftct"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/Button"/>
+</LinearLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <fragment-->
+<!--                android:id="@+id/map"-->
+<!--                android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="250dp"-->
+<!--                tools:context=".gui.ContactUs"/>-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/ahmedabad_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="@drawable/map_list_effect">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@id/button"
+                android:text="@string/ahmedabad"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/ahmedabad_icon"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_keyboard_arrow_down_white_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ahmedabad_layout_desc"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:id="@+id/left"
+                android:src="@drawable/left_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:layout_marginLeft="5dp" />
+
+            <com.nebulacompanies.nebula.view.EnhancedWrapContentViewPager
+                android:id="@+id/viewpager_ahmedabad"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:id="@+id/right"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/right_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/click_effect"/>
+
+        <LinearLayout
+            android:id="@+id/hyderabad_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="@drawable/map_list_effect">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@id/button"
+                android:text="@string/hyderabad"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/hyderabad_icon"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hyderabad_layout_desc"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:id="@+id/left1"
+                android:src="@drawable/left_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:layout_marginLeft="5dp" />
+
+            <com.nebulacompanies.nebula.view.EnhancedWrapContentViewPager
+                android:id="@+id/viewpager_hyderabad"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:id="@+id/right1"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/right_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/click_effect"/>
+
+        <LinearLayout
+            android:id="@+id/kolkata_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:visibility="gone"
+            android:background="@drawable/map_list_effect">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@id/button"
+                android:text="@string/kolkata"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/kolkata_icon"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kolkata_layout_desc"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:src="@drawable/left_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:layout_marginLeft="5dp" />
+
+            <com.nebulacompanies.nebula.view.WrappingViewPager
+                android:id="@+id/viewpager_kolkata"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/right_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/click_effect"/>
+
+        <LinearLayout
+            android:id="@+id/chennai_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:background="@drawable/map_list_effect">
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/chennai"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/chennai_icon"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chennai_layout_desc"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/chennai_left_icon"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/left_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:layout_marginLeft="5dp" />
+
+            <com.nebulacompanies.nebula.view.EnhancedWrapContentViewPager
+                android:id="@+id/viewpager_chennai"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/chennai_right_icon"
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/right_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="55dp"
+                style="@style/SelectableItemBackground"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

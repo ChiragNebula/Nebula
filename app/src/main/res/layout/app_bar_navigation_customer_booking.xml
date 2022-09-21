@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_bg"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/txt_Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Header"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp">
+
+            </com.nebulacompanies.nebula.view.MyBoldTextView>
+
+            <ImageView
+                android:id="@+id/iv_Logout"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_logout"
+                android:backgroundTint="@color/colorBlack"
+                app:tint="@color/blue">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <include layout="@layout/activity_navigation_customer_booking" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/main_bg"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+
+<!--    <com.roughike.bottombar.BottomBar-->
+<!--        android:id="@+id/bottomBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/main_bg"-->
+<!--        app:bb_tabXmlResource="@xml/bottombar_tabs_three" />-->
+</RelativeLayout>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/dimen_ten_dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_edge_back"
+                android:padding="@dimen/dimen_ten_dp">
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:contextClickable="false"
+                    app:actualImageScaleType="fitCenter"
+                    app:failureImage="@drawable/app_icon"
+                    app:failureImageScaleType="center"
+                    app:progressBarAutoRotateInterval="1000"
+                    app:progressBarImage="@drawable/icons_spinner"
+                    app:progressBarImageScaleType="centerInside"
+                    app:roundAsCircle="true"
+                    app:roundedCornerRadius="100dp"
+                    app:roundingBorderColor="@color/colorPrimaryDark"
+                    app:roundingBorderWidth="1dp" />
+
+                <LinearLayout
+                    android:id="@+id/llDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgProfile"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/styleTextViewLabelCustomerBooking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="0dp"
+                        android:gravity="center"
+                        android:padding="0dp"
+                        android:textColor="#612154"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="@dimen/dimen_five_dp"
+                        android:background="@color/colorChipViewBackground" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Name"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_name"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="DOB"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_DOB"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:hint=""
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Nationality"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_Nationality"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:hint=""
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Residential Status"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_ResidentalAddress"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:hint=""
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Marital Status"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_MaritalStatus"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:hint=""
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <!--Profession Details-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Profession"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_profession"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Designation"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_designation"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Company/Firm"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_companyName"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="@dimen/dimen_ten_dp"
+                        android:background="@color/colorChipViewBackground" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Mobile"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_mobile"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="phone"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Tel.Residential"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_telephoneResidential"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="phone"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Office Con.No."
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_officeContactNo"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="phone"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Email"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_emailId"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="email"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="FAX"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_fax"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="email"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:hint="Aadhaar"
+                            android:padding="0dp"
+                            android:text="idProof"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_idProofNo"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="email"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:hint="Pan Card"
+                            android:padding="0dp"
+                            android:text="addressProof"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_addressProofNo"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:autoLink="email"
+                            android:gravity="left"
+                            android:hint=""
+                            android:padding="0dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="@dimen/dimen_ten_dp"
+                        android:background="@color/colorChipViewBackground" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Residential Address"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_residentialAddress"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:layout_marginBottom="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_five_dp"
+                        android:paddingRight="@dimen/dimen_five_dp">
+
+                        <TextView
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="0.50"
+                            android:gravity="center|left"
+                            android:padding="0dp"
+                            android:text="Office Address"
+                            android:textColor="#612154"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_communicationAddress"
+                            style="@style/styleTextViewLabelCustomerBooking"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:padding="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="@dimen/dimen_five_dp"
+                        android:background="@color/colorChipViewBackground" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtDone"
+                    style="@style/styleTextViewLabelCustomerBooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/llDetails"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="0dp"
+                    android:padding="0dp"
+                    android:text="OK"
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

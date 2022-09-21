@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/dimen_ten_dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtProjectDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nebula"
+            android:gravity="center"
+            android:padding="@dimen/dimen_ten_dp"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llUnitType"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_house_filled" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Unit  "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtUnitType"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icons_cost" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Cost "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtCost"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:text="(Area X Rate)+PLC"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPaymentPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_payment_plan" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Payment Plan  "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtPaymentPlan"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:text="20%"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDownPayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_down_payment" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Down Payment  "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtDownPayment"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llDownPaymentPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icons_down_payment_plan" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Down Payment Plan  "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtDownPaymentPlan"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:text="6 Months with 3% discount"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llToken"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_booking_token" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Booking Token  "
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtToken"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:text="1,52,2500"
+                        android:textColor="@color/color_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llReceipt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_receipt" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="Receipt  "
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.90"
+                        android:longClickable="false"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/llReceiptDownPayment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:gravity="center_vertical">
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                style="@style/StyleTitleTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="0dp"
+                                android:layout_weight="1"
+                                android:longClickable="false"
+                                android:maxLines="3"
+                                android:text="Down Payment : "
+                                android:textStyle="bold" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/txtReceiptDownPayment"
+                                style="@style/StyleTitleTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="0dp"
+                                android:layout_weight="1"
+                                android:longClickable="false"
+                                android:text="1,52,2500"
+                                android:textColor="@color/color_text" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llReceiptBankLoan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:gravity="center_vertical">
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                style="@style/StyleTitleTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="0dp"
+                                android:layout_weight="1"
+                                android:longClickable="false"
+                                android:maxLines="3"
+                                android:text="Bank Loan : "
+                                android:textStyle="bold" />
+
+                            <com.nebulacompanies.nebula.view.MyTextView
+                                android:id="@+id/txtReceiptBankLoan"
+                                style="@style/StyleTitleTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="0dp"
+                                android:layout_weight="1"
+                                android:longClickable="false"
+                                android:text="1,52,2500"
+                                android:textColor="@color/color_text" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBrochure"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:padding="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_brochure" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        android:id="@+id/txtBrochure"
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_weight="0.75"
+                        android:longClickable="false"
+                        android:text="@string/prompt_brochure"
+                        android:textColor="@color/colorAccentNav"
+                        android:textStyle="bold" />
+
+                    <com.nebulacompanies.nebula.view.MyTextView
+                        style="@style/StyleTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="0.90"
+                        android:autoLink="all"
+                        android:clickable="true"
+                        android:ellipsize="marquee"
+                        android:gravity="start"
+                        android:longClickable="false"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="false"
+                        android:singleLine="true"
+                        android:textColor="@color/color_text"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/llClose"
+            style="@style/StyleTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_ten_dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:longClickable="false"
+            android:text="Close"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.cardview.widget.CardView>

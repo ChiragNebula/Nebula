@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/unitRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:padding="@dimen/dimen_five_dp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        tools:listitem="@layout/row_project_unit" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_EMICard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_five_dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone">
+        <include layout="@layout/dialog_emi_table" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <include layout="@layout/layout_empty_view" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

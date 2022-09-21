@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/company_event_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+        <ListView
+            android:id="@+id/listview_company_events"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            android:scrollbarThumbVertical="@drawable/scrollview"
+            android:scrollbarStyle="outsideOverlay"
+            android:smoothScrollbar="true">
+        </ListView>
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

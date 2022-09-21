@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nebula">#967BB6</color>
+    <color name="red">#e72d1f</color>
+    <color name="green">#36ab3b</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="main_bg">#E6D1FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="login_button_bg">#6F245F</color>
+
+
+
+
+    <color name="toolbar">#570054</color>
+    <color name="sub_toolbar">#570054</color>
+    <color name="nebula_new_dark">#570054</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="color_texts">#414042</color>
+    <color name="company_profile">#ffc703</color>
+    <color name="products">#fb0763</color>
+    <color name="facebook_feeds">#336699</color>
+    <color name="events">#75b309</color>
+    <color name="videos">#ffa8a8</color>
+    <color name="logo">#ffffff</color>
+    <color name="contact_us">#08978f</color>
+    <color name="notifications">#94ab36</color>
+    <color name="newsletters">#f7740a</color>
+
+    <color name="tab_background_selected">#967BB6</color>
+    <color name="tab_background_unselected">#3e3a36</color>
+
+    <color name="aavaas_downline">#0ab1d5</color><![CDATA[
+
+
+
+
+
+
+
+
+
+    //Ranks & Volumes
+    ]]>
+    <color name="bar_empty">#e3e3e3</color>
+
+    <color name="Gray">#BDBDBD</color>
+    <color name="grey">#808080</color>
+
+    <color name="language">#010C66</color>
+
+    //VACATION THAILAND
+
+    <color name="vacation_bg">#333333</color>
+    <color name="vacation_blue_dark">#205871</color>
+    <color name="vacation_blue_light1">#FF6FD8E4</color>
+    <color name="bottom_navigation_vaction">#205871</color>
+
+
+    <!--Modified By Jadav Chirag.-->
+
+
+    <color name="login_txt_bg">#622154</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlack">#696969</color>
+
+    <color name="colorBackgroundEditText">#c9c9c9</color>
+    <color name="colorRed">#ff0000</color>
+
+    <color name="colorNavigation">#1B1C1F</color>
+    <color name="colorTextDetails">#A4A4A4</color>
+    <color name="colorTransparent">#85000000</color>
+
+    <color name="colorPositive">#40596B</color>
+    <color name="colorNegative">#FF7058</color>
+    <color name="colorDesktopBackground">#F2F2F2</color>
+
+    <color name="colorTextGrey">#808080</color>
+    <!--<color name="included_dark_color">#1B5E20</color>-->
+
+
+    <color name="icon_color_vector">#737373</color>
+    <color name="color_animation_progress">#737373</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_video_view_">#E6E6E6</color>
+    <color name="click_effect">#D3D3D3</color>
+    <color name="table_bg_even">#E6E7E8</color>
+    <color name="table_bg_odd">#D2D3D5</color>
+
+
+    // Dashboard
+    <color name="DARK_GREEN">#3ea13e</color>
+    <color name="GREEN">#64cc64</color>
+
+    <color name="color_text">#A9A9A9</color>
+    <color name="cust_login">#BF360C</color>
+    <!-- #737373 -->
+    <!--End Modification-->
+
+    <!--Customer Booking-->
+
+
+    <!--  <color name="colorPrimary">#3F51B5</color>
+      <color name="colorPrimaryDark">#303F9F</color>
+      <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimaryNav">#fff</color>
+    <color name="colorAccentNav">#448AFF</color>
+
+    <!-- <color name="colorLightBlack">#696969</color>-->
+
+    <color name="color_blue_light">#00AEE7</color>
+    <!--<color name="colorTextGrey">#808080</color>-->
+
+    <!--<color name="colorPositive">#40596B</color>
+    <color name="colorNegative">#FF7058</color>-->
+
+    <color name="blue">#123256</color>
+
+    <color name="gray">#444444</color>
+    <color name="gray_light">#BBBBBB</color>
+    <color name="gray_very_light">#DDDDDD</color>
+
+
+    <!-- <color name="colorPrimary">#fff</color>
+     <color name="colorPrimaryDark">#fff</color>
+     <color name="colorAccent">#448AFF</color>
+ -->
+
+    <!--#d3d3d3-->
+
+    <color name="colorChipViewBackground">#E0E0E0</color>
+    <color name="colorCloseChip">#ababab</color>
+
+    <color name="colorBookingText">#612154</color>
+
+    <color name="color_light_grey">#424242</color>
+    <color name="color_dashboard_title">#ffffff</color><!--#4A148C-->
+
+    <!--  <color name="colorTransparent">#85000000</color>
+      <color name="click_effect">#D3D3D3</color>-->
+    <color name="color_customer_theme">#800080</color>
+    <color name="color_promotion">#0aa89e</color>
+
+
+<!--     Login-->
+    <color name="curve_bg">#F4EDF3</color>
+    <color name="otp_text_bg">#7B8299</color>
+
+</resources>

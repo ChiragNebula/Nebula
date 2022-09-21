@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureWithLargestChild="false"
+    android:weightSum="1">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_promoters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_promoters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#f9f5f5">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>
+
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:id="@+id/scroller"
+    android:scrollbars="vertical"
+    tools:context=".fragments.PromotersFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <WebView
+        android:id="@+id/projects_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pacifica"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pacifica"
+        android:padding="8sp"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_selector"
+        android:clickable="true"
+        android:layout_below="@id/projects_view"/>
+
+    <WebView
+        android:id="@+id/pacifica_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pacifica"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/kesar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kesar"
+        android:padding="8sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_selector"
+        android:clickable="true"
+        android:layout_below="@id/pacifica_view"/>
+
+    <WebView
+        android:id="@+id/kesar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kesar"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/futura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/futura"
+        android:padding="8sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_selector"
+        android:clickable="true"
+        android:layout_below="@id/kesar_view"/>
+
+    <WebView
+        android:id="@+id/futura_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/futura"
+        android:visibility="gone"/>
+
+   &lt;!&ndash; <TextView
+        android:id="@+id/projects"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/projects"
+        android:padding="8sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_selector"
+        android:clickable="true"
+        android:layout_below="@id/futura_view"/>&ndash;&gt;
+
+</RelativeLayout>
+
+    </ScrollView>-->

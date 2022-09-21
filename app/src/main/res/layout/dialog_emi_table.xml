@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:maxHeight="500dp"
+    android:padding="@dimen/dimen_ten_dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.nebulacompanies.nebula.view.MyBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_five_dp"
+            android:text="Down Payment EMI Schedule"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/main_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:maxLines="4"
+                android:text="#"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@android:color/white" />
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="EMI Date"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@color/white" />
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="Amount"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@color/white" />
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/txt_EmiStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="Status"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@color/white" />
+
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/txtInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:text="ⓘ"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerViewEMITable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:overScrollMode="never"
+            tools:listitem="@layout/row_emi_table" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

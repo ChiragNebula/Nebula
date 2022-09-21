@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">-->
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/activity_notification_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+    <ListView
+        android:id = "@+id/notifications_listview"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:scrollbarThumbVertical="@drawable/scrollview"
+        android:scrollbarStyle="outsideOverlay"
+        android:smoothScrollbar="true"/>
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

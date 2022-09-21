@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/company_event_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:id="@+id/events_image_icon"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/event_bg"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/circle_image1"
+                android:layout_margin="@dimen/dimen_ten_dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="142dp"
+                android:src="@drawable/events_circle_image"/>
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/events_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/dimen_five_dp" />
+        </LinearLayout>
+
+        <!--<ListView
+            android:id="@+id/listview_company_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            android:scrollbarThumbVertical="@drawable/scrollview"
+            android:scrollbarStyle="outsideOverlay"
+            android:smoothScrollbar="true"/>-->
+
+        <ListView
+            android:id="@+id/listview_company_events"
+            android:padding="5dp"
+            android:divider="@color/nebula"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:smoothScrollbar="true"/>
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

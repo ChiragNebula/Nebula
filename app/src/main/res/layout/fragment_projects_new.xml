@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_projects"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:popupTheme="@style/ThemeOverlay.AppCompat"
+            app:theme="@style/ToolBarStyle" />
+
+        <com.nebulacompanies.nebula.view.MyBoldTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:layout_marginLeft="@dimen/dimen_ten_dp"
+            android:layout_marginRight="@dimen/dimen_ten_dp"
+            android:layout_marginStart="@dimen/dimen_ten_dp"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textColor="@color/color_texts" />
+
+
+        <com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_eleven_sp"
+            android:layout_margin="@dimen/dimen_ten_dp"
+            android:textColor="@color/color_texts" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginEnd="@dimen/dimen_five_dp"
+                android:layout_marginLeft="@dimen/dimen_ten_dp"
+                android:layout_marginRight="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:text="Date"
+                android:textSize="@dimen/dimen_eleven_sp"
+                android:textColor="@color/color_texts"
+                android:visibility="gone" />
+
+            <com.nebulacompanies.nebula.view.MyTextView
+                android:id="@+id/tv_date_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:textSize="@dimen/dimen_eleven_sp"
+                android:textColor="@color/color_texts"
+                />
+        </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/projects_view_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    layout="@layout/layout_empty_view"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical" />
+
+            </FrameLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
