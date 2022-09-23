@@ -168,7 +168,20 @@ Garden with Lifestyle Facilities for all age groups | 24 x 7 Security Solutions 
     <string name="login_id">Login ID</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="otp">Enter your block and flat no. to get OTP \n on your registered mobile no.</string>
+    <string name="block">Block</string>
+    <string name="flat">Flat No.</string>
+    <string name="needhelp">Need help?</string>
     <string name="continues">Continue</string>
+    <string name="validationblocks">Please Enter Block</string>
+    <string name="validationflat">Please Enter Flat No.</string>
+    <string name="resendotp">Resend OTP in : </string>
+    <string name="didnt_receive">Did not receive the OTP? resend</string>
+
+
+    <string name="verifyotp">Verify OTP</string>
+    <string name="enterotp">Enter OTP here</string>
+
     <string name="verify">Verify</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="forgot_otp_password">RESET YOUR PASSWORD </string>

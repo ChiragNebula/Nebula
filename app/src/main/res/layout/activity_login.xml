@@ -17,11 +17,12 @@
             android:padding="10dp">
 
             <com.nebulacompanies.nebula.view.MyBoldTextView
+                android:id="@+id/txt_Login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Login"
+                android:text="@string/login"
                 android:textColor="@color/colorBlack"
                 android:textSize="25sp">
 
@@ -42,7 +43,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="Enter your block and flat no. to get OTP \n on your registered mobile no."
+                android:text="@string/otp"
                 android:textColor="@color/otp_text_bg"
                 android:textSize="16sp">
 
@@ -64,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
                     android:layout_marginRight="10dp"
-                    android:hint="@string/enter_block_no"
+                    android:hint="@string/block"
                     android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
                     android:inputType="textCapSentences"
                     android:longClickable="false"
@@ -89,7 +90,7 @@
                     android:background="@drawable/drawable_edittext_bg"
                     android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
                     android:gravity="left|center_vertical"
-                    android:hint="@string/enter_flat_no"
+                    android:hint="@string/flat"
                     android:inputType="number"
                     android:longClickable="false"
                     android:paddingLeft="15dp"
@@ -116,7 +117,7 @@
                 android:layout_marginRight="60dp"
                 android:layout_marginTop="15dp"
                 android:textColor="@color/colorBlack"
-                android:text="Need help?">
+                android:hint="@string/needhelp">
 
             </com.nebulacompanies.nebula.view.MyBoldTextView>
 

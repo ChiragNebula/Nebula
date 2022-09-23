@@ -22,7 +22,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,14 +42,12 @@ import com.nebulacompanies.nebula.CustomerBooking.Utils.AppUtils;
 import com.nebulacompanies.nebula.CustomerBooking.Utils.Const;
 import com.nebulacompanies.nebula.CustomerBooking.Utils.UI.Activity.CustomerBookingNavigationActivity;
 import com.nebulacompanies.nebula.CustomerBooking.Utils.UserAuthorization;
-import com.nebulacompanies.nebula.GuestActivity;
 import com.nebulacompanies.nebula.Model.Login.getLoginResonse;
 import com.nebulacompanies.nebula.Network.APIClient;
 import com.nebulacompanies.nebula.Network.APIInterface;
 import com.nebulacompanies.nebula.R;
 import com.nebulacompanies.nebula.broadcast.AppSignatureHashHelper;
 import com.nebulacompanies.nebula.broadcast.SMSReceiver;
-import com.nebulacompanies.nebula.broadcast.SmsBroadcastReceiver;
 import com.nebulacompanies.nebula.util.Uttils;
 
 import org.json.JSONObject;
@@ -81,6 +78,7 @@ public class ActivityOTP extends Activity implements
 
     TextView txt_Resend;
     final CountDownTimer[] cTimer = new CountDownTimer[1];
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,34 +86,38 @@ public class ActivityOTP extends Activity implements
         obj_OTP = this;
         mUserAuthorization = new UserAuthorization(obj_OTP);
         mAPIInterface = APIClient.getClient(obj_OTP).create(APIInterface.class);
+        AppSignatureHashHelper appSignatureHashHelper = new AppSignatureHashHelper(this);
+        Log.i(TAG, "HashKey: " + appSignatureHashHelper.getAppSignatures().get(0));
+
         findById();
         getBundleData();
         setAction();
         checkAndRequestPermissions();
         startSMSListener();
-        receiver = new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context context, Intent intent) {
-                Log.e("OTP", "OTP");
-                if (intent.getAction().equalsIgnoreCase("otp")) {
-                    final String message = intent.getStringExtra("message");
-                    final String sender = intent.getStringExtra("Sender");
-                    Log.e("sender", sender);
-                    if (sender.equals("QP-NEBULA")){
-                        Pattern pattern = Pattern.compile("(\\d{4})");
-                        Matcher matcher = pattern.matcher(message);
-                        String otp = "";
-                        if (matcher.find()) {
-                            otp = matcher.group(0);  // 4 digit number
-                        } else {
 
-                        }
-                        setOtp(otp);
-                    }
-
-                }
-            }
-        };
+//        receiver = new BroadcastReceiver() {
+//            @Override
+//            public void onReceive(Context context, Intent intent) {
+//                Log.e("OTP", "OTP");
+//                if (intent.getAction().equalsIgnoreCase("otp")) {
+//                    final String message = intent.getStringExtra("message");
+//                    final String sender = intent.getStringExtra("Sender");
+//                    Log.e("sender", sender);
+//                    if (sender.equals("QP-NEBULA")){
+//                        Pattern pattern = Pattern.compile("(\\d{4})");
+//                        Matcher matcher = pattern.matcher(message);
+//                        String otp = "";
+//                        if (matcher.find()) {
+//                            otp = matcher.group(0);  // 4 digit number
+//                        } else {
+//
+//                        }
+//                        setOtp(otp);
+//                    }
+//
+//                }
+//            }
+//        };
         startTimer();
 
 
@@ -127,13 +129,13 @@ public class ActivityOTP extends Activity implements
         }
         cTimer[0] = new CountDownTimer(30000, 1000) {
             public void onTick(long millisUntilFinished) {
-                txt_Resend.setText("Resend OTP in : " +String.valueOf(millisUntilFinished/1000) + "s");
+                txt_Resend.setText( getResources().getString(R.string.resendotp) +String.valueOf(millisUntilFinished/1000) + "s");
                 txt_Resend.setEnabled(false);
                 txt_Resend.setFocusable(false);
                 txt_Resend.setClickable(false);
             }
             public void onFinish() {
-                String text = "Didn't receive the OTP? resend";
+                String text = getResources().getString(R.string.didnt_receive);
                 SpannableString spannableString = new SpannableString(text);
                 ForegroundColorSpan foregroundColorSpanRed = new ForegroundColorSpan(Color.BLACK);
                 ForegroundColorSpan foregroundColorSpanGreen = new ForegroundColorSpan(Color.RED);
@@ -156,7 +158,8 @@ public class ActivityOTP extends Activity implements
             edt_Otp3.setText(""+otp.charAt(2));
             edt_Otp4.setText(""+otp.charAt(3));
 
-            callLoginAPI(str_Username,str_Password);
+            checkOTP();
+           // callLoginAPI(str_Username,str_Password);
         }
     }
 
@@ -316,34 +319,38 @@ public class ActivityOTP extends Activity implements
      * action SmsRetriever#SMS_RETRIEVED_ACTION.
      */
     private void startSMSListener() {
+
+        smsReceiver = new SMSReceiver();
+        smsReceiver.setOTPListener(this);
+
+        IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(SmsRetriever.SMS_RETRIEVED_ACTION);
+        this.registerReceiver(smsReceiver, intentFilter);
+
+        SmsRetrieverClient client = SmsRetriever.getClient(this);
+
+        Task<Void> task = client.startSmsRetriever();
+        task.addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                // API successfully started
+                Log.e("OTP","Success");
+            }
+        });
+
+        task.addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                // Fail to start API
+                Log.e("OTP","Fail");
+            }
+        });
+
         try {
-            smsReceiver = new SMSReceiver();
-            smsReceiver.setOTPListener(this);
 
-            IntentFilter intentFilter = new IntentFilter();
-            intentFilter.addAction(SmsRetriever.SMS_RETRIEVED_ACTION);
-            this.registerReceiver(smsReceiver, intentFilter);
-
-            SmsRetrieverClient client = SmsRetriever.getClient(this);
-
-            Task<Void> task = client.startSmsRetriever();
-            task.addOnSuccessListener(new OnSuccessListener<Void>() {
-                @Override
-                public void onSuccess(Void aVoid) {
-                    // API successfully started
-                    Log.e("OTP","Success");
-                }
-            });
-
-            task.addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception e) {
-                    // Fail to start API
-                    Log.e("OTP","Fail");
-                }
-            });
         } catch (Exception e) {
             e.printStackTrace();
+            Log.e("Error",e.getMessage());
         }
     }
 
@@ -351,7 +358,16 @@ public class ActivityOTP extends Activity implements
     @Override
     public void onOTPReceived(String otp) {
         showToast("OTP Received: " + otp);
-        Log.e("OTP","OTP Received:");
+        Log.e("OTP","OTP Received:"  + otp);
+        Pattern pattern = Pattern.compile("(\\d{4})");
+         Matcher matcher = pattern.matcher(otp);
+        String otp1 = "";
+       if (matcher.find()) {
+           otp1 = matcher.group(0);  // 4 digit number
+        } else {
+
+         }
+       setOtp(otp1);
         if (smsReceiver != null) {
             unregisterReceiver(smsReceiver);
             smsReceiver = null;

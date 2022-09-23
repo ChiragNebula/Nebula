@@ -18,6 +18,8 @@ public class Session {
     public static final String Logout = "false";
     public static final String USER_NAME = "nameKey";
     //public static final String PASSWORD = "passwordKey";
+    public static final String Language = "language";
+
 
     private final static String ACCESS_TOKEN = "ACCESS_TOKEN";
     private final static String REFRESH_TOKEN = "REFRESH_TOKEN";
@@ -38,6 +40,16 @@ public class Session {
     public String getLoginID() {
         String login_id = sharedpreferences.getString(LOGIN_ID, "");
         return login_id;
+    }
+
+    public void setLanguage(String loginID) {
+        editor.putString(Language, loginID);
+        editor.commit();
+    }
+
+    public String getLanguage() {
+        String languge = sharedpreferences.getString(Language, "");
+        return languge;
     }
 
     public void setRankID(String rankID) {

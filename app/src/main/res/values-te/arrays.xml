@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_amenities">
+        <item>Business Center</item>
+        <item>24-Hour Front Desk</item>
+        <item>Air Conditioning</item>
+        <item>Daily Housekeeping</item>
+        <item>Front Desk Safe</item>
+        <item>Laundry Service</item>
+        <item>Luggage Storage</item>
+        <item>268 Smoke-Free Guestrooms</item>
+    </string-array>
+
+    <integer-array name="array_amenities_images">
+        <item>@drawable/ic_business_center</item>
+        <item>@drawable/ic_front_desk</item>
+        <item>@drawable/ic_ac</item>
+        <item>@drawable/ic_house_keeping</item>
+        <item>@drawable/ic_front_desk_safe</item>
+        <item>@drawable/ic_laundry_service</item>
+        <item>@drawable/ic_luggage_storage</item>
+        <item>@drawable/ic_smooke_free_guest_room</item>
+    </integer-array>
+
+    <string-array name="array_currency_name">
+        <item>Indian Rupee</item>
+        <item>Thai Baht</item>
+        <item>US Dollar</item>
+    </string-array>
+
+   <!-- <string-array name="product_list">
+        <item>ఆవాస్ (చంగోదర్), అహ్మదాబాద్</item>
+        <item>హవతోర్న్ సూట్స్ , ద్వారక</item>
+        <item>ఆవాస్ (మీయాపూర్), హైదరాబాద్</item>
+    </string-array>-->
+
+    <!--Customer booking-->
+
+    <string-array name="array_relation_type">
+        <item>Son</item>
+        <item>Wife</item>
+        <item>Daughter</item>
+    </string-array>
+
+    <string-array name="array_title">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Ms.</item>
+    </string-array>
+
+    <string-array name="array_nationality">
+        <item>INDIAN</item>
+        <item>NRI</item>
+    </string-array>
+
+    <string-array name="array_residential_status">
+        <item>Resident</item>
+        <item>Non-Resident</item>
+        <!--
+                <item>Foreign National of Indian Origin</item>
+        -->
+    </string-array>
+
+
+    <string-array name="array_marital_status">
+        <item>Married</item>
+        <item>Single</item>
+    </string-array>
+
+
+    <string-array name="array_id_proof">
+        <item>PAN Card</item>
+        <item>Aadhaar</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+        <item>Voter\'s ID Card</item>
+    </string-array>
+
+    <string-array name="array_address_proof">
+        <item>Aadhaar</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+        <item>Ration Card</item>
+    </string-array>
+
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+
+
+</resources>

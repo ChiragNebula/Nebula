@@ -1,0 +1,983 @@
+<resources>
+    <string name="app_name">நெபுலா</string>
+    <string name="welcome_to_nebula">Welcome to Nebula</string>
+    <string name="version">"Version "</string>
+    <string name="company_profile">நிறுவனத்தின்\n சுருக்கக்குறிப்பு</string>
+    <string name="products">"தயாரிப்புகள் "</string>
+    <string name="facebook_feeds">Facebook</string>
+    <string name="events">நிகழ்ச்சிகள்</string>
+    <string name="videos">வீடியோக்கள்</string>
+    <string name="invite_to_join">Invite to Join</string>
+    <string name="distributors">Distributors</string>
+    <string name="contact_us">எங்களை\nதொடர்புகொள்ளவும்</string>
+    <string name="notifications">அறிவிப்புகள்</string>
+    <string name="newsletters">செய்தி மடல்கள்</string>
+    <string name="edocs">ஈ - ஆவணங்கள்</string>
+    <string name="ebro">ஈ - குறிப்பு வெளியீடுகள்</string>
+    <string name="bookingforms">முன்பதிவு படிவங்கள்</string>
+    <string name="leaflets">துண்டு பிரசுரங்கள்</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="vision">தொலை நோக்கு</string>
+    <string name="vision_para">சுற்றிலும் மகிழ்ச்சியான வாடிக்கையாளர்கள்</string>
+    <string name="mission">குறிக்கோள்</string>
+    <string name="mission_para">ஹோட்டல்கள்,\n இல்லங்கள் &amp; கனவு திட்டங்கள் உருவாக்குதல் </string>
+    <string name="values">பயன் மதிப்புகள்</string>
+    <string name="values_para">நாங்கள் வாக்குறுதிகள்,\n நம்பிக்கை மற்றும் பொறுப்பு ஆகியவற்றை நிறைவேற்றுவோம்.</string>
+    <string name="pacifica">Pacifica Companies</string>
+    <string name="kesar">Kesar Group</string>
+    <string name="futura">Futura Group</string>
+    <string name="projects">Projects by Promoters  >></string>
+    <string name="pacifica_view">2.7 பில்லியன் யுஎஸ் டாலர்களை மூல மொத்த வணிகமாக கொண்டு உலகளாவிய அளவில் யு.எஸ்.ஏ, இந்தியா &amp; மெக்சிகோ போன்ற நாடுகளில் ரியல் எஸ்டேட் மற்றும் விருந்தோம்பல் வணிகங்களை ஒருங்கிணைத்து செயல்படும் ஒரு தனியார் கூட்டு குழுமம்.</string>
+    <string name="futura_view">ஈ மற்றும் ஓ&amp;ஜி தொழில் துறைகளில் ஒப்பந்தம் மற்றும் செயல் திட்ட மேலாண்மை ஆகியவற்றில் நிபுணத்துவம் கொண்ட ஒரு பன்முக குழுமமான ஃபியூச்சுரா மருந்து, ஐடி மற்றும் எக்சிம் தொழில் துறைகளிலும் ஈடுபட்டுள்ளது.</string>
+    <string name="kesar_view">பல மில்லியன் சதுர அடிகள் வீட்டு வசதி மற்றும் வணிக வளாகங்களை உருவாக்கியவர்கள் என்ற நிரூபிக்கப்பட்ட மரபுடைய குஜராத் மாநிலத்தைச் சார்ந்த ஒரு மிகப் பெரிய ரியல் எஸ்டேட் நிறுவனம்.</string>
+    <string name="expertise">நிபுணத்துவம்</string>
+    <string name="expertise_kesar">நில ஒருங்கிணைத்தல், கட்டுப்படியாகக்கூடிய வீட்டுவசதி</string>
+    <string name="expertise_futura">ஓ &amp; ஜி ஆணையம் மற்றும் மனிதவள விநியோகம் </string>
+    <string name="expertise_pacifica">રரியல் எஸ்டேட் மேம்பாடு (வர்த்தகம், வீட்டுவசதி)</string>
+    <string name="downline">Downline</string>
+    <string name="sales">Sales</string>
+    <string name="income_summary">மொத்த வருமானம்</string>
+    <string name="downloads">பதிவிறக்கங்கள்</string>
+    <string name="dwarka">Dwarka</string>
+    <string name="ahmedabad">அகமதாபாத்</string>
+    <string name="product_list">Product List</string>
+    <string name="product_name">Product Name</string>
+    <string name="retail_price">Retail Price</string>
+    <string name="distributor_price">Distributor Price</string>
+    <string name="bv">BV%</string>
+    <string name="bv_">"BV : "</string>
+    <string name="dv">DV%</string>
+    <string name="retail_profit">Retail Profit%</string>
+    <string name="nv">NV</string>
+    <string name="receipt_date">Receipt Date</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="flat_no">Flat No</string>
+    <string name="emi_no">EMI No</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="type">Type</string>
+    <string name="retail_profit_">Retail Profit</string>
+    <string name="leadership_bonus">Leadership Bonus</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="member">Member</string>
+    <string name="product">Product</string>
+    <string name="spot_income">விடுமுறை ஸ்தல வருமானம்</string>
+    <string name="spot_income_">Spot Vacation Income</string>
+    <string name="total">Total</string>
+    <string name="totals">Totals</string>
+    <string name="know_more"><u>Know More</u>...</string>
+    <string name="Aavaas">ஆவாஸ், அகமதாபாத்</string>
+    <string name="aavaas_details">முதன் முறையாக அகமதாபாத் நகரத்தின் முக்கியமான பகுதியில் சிறந்த வாழ்க்கை முறை அனுபவத்தைத் தரும் வாங்கக்கூடிய விலையில் சொகுசான வாழ்க்கை முறை இல்லங்கள்.  வாங்கக்கூடிய விலையில் சிறந்த வசதிகளையும் மற்றும் அம்சங்களையும் கொண்ட இல்லங்களுடன் எதிர் காலத்தை நல்ல முறையில் உருவாக்கவும் மற்றும் கனவை நனவாக்கவும் இதுவே சிறந்த நேரம்.</string>
+    <string name="project_highlights">திட்டத்தின் உன்னத அம்சங்கள்</string>
+    <string name="abad_highlight1">1 RK, 1 BHK &amp; 2 BHK அபார்ட்மெண்டுகள் </string>
+    <string name="abad_highlight2">ஜி + 3 அடுக்குமாடிகள் கொண்ட 56 கட்டிடங்கள்</string>
+    <string name="abad_highlight3">19 ஏக்கர்களுக்கு மேற்பட்டது</string>
+    <string name="abad_highlight4">தினசரி வசதிகள், பள்ளிகள் மற்றும் கல்லூரிகள்</string>
+    <string name="abad_highlight5">சிட்டி சென்டரிலிருந்து 20 நிமிடங்கள்</string>
+    <string name="abad_highlight6">"சமுதாய கூடம் கொண்ட கிளப் "</string>
+    <string name="Hawthorn">ஹாதோர்ன், அறைகள்</string>
+    <string name="hawthorn_details">நெபுலாவின் 5 நட்சத்திர சூழல் ஆன்மீக ரிசார்ட் கொண்ட ஆடம்பர வில்லாகள் 15 ஏக்கர் பரப்பளவில் பரந்துள்ளது. இந்த ரிசார்ட், புனித நிலத்தின் அமைதியிலும் சாந்தியிலும் உங்களை மூழ்கடித்து, உங்கள் உடல் மனம் மற்றும் ஆத்மாவை உற்சாகப்படுத்துவது போன்ற ஒரு வகையான பெருமிதம் கொண்டது.</string>
+    <string name="project_details">திட்ட விவரங்கள்</string>
+    <string name="dwarka_highlight1">200 வில்லாக்கள்</string>
+    <string name="dwarka_highlight2">60+ அடுக்கு அறைகள்</string>
+    <string name="dwarka_highlight3">1 BHK (டீலக்ஸ் &amp; சூப்பர் டீலக்ஸ்) &amp; 2 BHK (சூப்பர் டீலக்ஸ்)</string>
+    <string name="dwarka_highlight4">தி கிருஷ்ணா மியூசியம்</string>
+    <string name="dwarka_highlight5">ஸ்டார்கேஸிங் முகாம்கள்</string>
+    <string name="dwarka_highlight6">தியானா தியான தோட்டம் / பிராணா ஹெர்பல் ஸ்பா மற்றும் ஆரோக்கிய மையம்</string>
+    <string name="Aavaas_Hyderabad">ஆவாஸ், ஹைதராபாத்</string>
+    <string name="hyderabad_details">ஹைதராபாத்தின் வடமேற்குப் பகுதியில் அமைந்திருக்கும் பச்சுபலி ஒரு பரபரப்பான ஐ.டி மையமாக மாற்றியமைக்கப்பட்டுள்ளது. குதுபுல்லபூர் மண்டலத்தில் அமைந்திருக்கும் இந்த இடம், கிழக்கில் சுரரம் கிராமம், மேற்கில் பொல்லாரம் தொழிற்சாலை, வடக்கில் போரம்பேட் மற்றும் தெற்கே விஸ்பர் பள்ளத்தாக்கு ஆகியவற்றால் சூழ்ந்துள்ளது. மனிதன் உருவாக்கிய உள்கட்டமைப்பு மட்டுமல்லாமல், ஏராளமான ஏரிகள் மற்றும் குளங்கள் ஏராளமான கொண்ட பச்சுபலி இயற்கை ரசிகர்களுக்கான சொர்க்கம் ஆகும். அதன் அருகாமையில் உள்ள பகுதிகள் அதன் பசுமையினால் ஒரு தங்க சுரங்கம் என கூறப்படுகிறது.</string>
+    <string name="hbad_highlight1">1 BHK &amp; 2 BHK</string>
+    <string name="hbad_highlight2">10 ஏக்கர்களுக்கு மேற்பட்டது</string>
+    <string name="hbad_highlight3">உயரமான பல அடுக்குமாடிகள் கொண்ட கட்டிடங்கள்</string>
+    <string name="hbad_highlight4">யோகா மையம்</string>
+    <string name="hbad_highlight5">நூலகம்</string>
+    <string name="hbad_highlight6">பார்ட்டி புல்வெளி</string>
+    <string name="office">கார்ப்பரேட் அலுவலகம்</string>
+    <string name="office_address">705, ஷிவாலிக் அபேஸ், பிரஹ்லாத்நகர், அகமதாபாத் - 380 015</string>
+    <string name="office_phone_number1">+91 79 6621 2222</string>
+    <string name="phone"><u>+91 79 6621 2222</u></string>
+    <!--<string name="office_phone_number2"><u>1800 419 2299 (இலவசம்)</u></string>-->
+    <string name="toll_free_phone_number"><u>1800 123 7073 (Toll Free)</u></string>
+    <string name="office_fax_number">91 79 6621 2200 (தொலைநகல்)</string>
+    <string name="office_email"><u>info@nebulacompanies.com</u></string>
+    <string name="rank_and_volumes">தர வரிசை &amp; வர்த்தக அளவுகள்</string>
+    <string name="current_month"><u>Current Month</u></string>
+    <string name="previous_month"><u>Previous Months</u></string>
+    <string name="my_bv_commission">My BV Commission</string>
+    <string name="member_name_">Member Name</string>
+    <string name="member_id_">Member ID</string>
+    <string name="member_id_profile">உறுப்பினர் ஐடி</string>
+    <string name="gap">Gap %</string>
+    <string name="bv_income">BV Income</string>
+    <string name="closing_date">Closing Date</string>
+    <string name="my_bv">My BV %</string>
+    <string name="rank">Rank</string>
+    <string name="gold_income_">Gold Income</string>
+    <string name="total_bv_commission">Total BV Commission</string>
+    <string name="more_info">More Info</string>
+    <string name="info_">Info</string>
+    <string name="bv_from_sales">BV From Sales</string>
+    <string name="fl_bv">FLBV</string>
+    <string name="my_BV">My BV</string>
+    <string name="dbv">DBV</string>
+    <string name="dbv_commission">DBV Commission</string>
+    <string name="total_income">Total Income</string>
+    <string name="incomeorshare">Income / Share</string>
+    <string name="downline_members">Downline Members</string>
+    <string name="sale_id">Sale ID</string>
+    <string name="apartment">Apartment</string>
+    <string name="unit">Unit</string>
+    <string name="receipt">Receipt</string>
+    <string name="sale_info">Sale Info</string>
+    <string name="investment">Investment</string>
+    <string name="payment_plan">Payment Plan</string>
+    <string name="token_amount">Token Amount</string>
+    <string name="dp_20">DP</string>
+    <string name="discount">Discount</string>
+    <string name="monthly_installment">Monthly Installment</string>
+    <string name="next_installment_date">Next Installment Date</string>
+    <string name="customer_info">Customer Info</string>
+    <string name="state_">State</string>
+    <string name="city_">City</string>
+    <string name="mobile">Mobile</string>
+    <string name="pincode_">Pincode</string>
+    <string name="gold_income">தங்கம் தொடர்பான வருமானம்</string>
+    <string name="pdf_dwonload_toast">இந்த ஈ-குறிப்பு வெளியீட்டை பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="pdf_dwonload_toast_booking">இந்த முன்பதிவு படிவத்தை பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="pdf_dwonload_toast_leaflets">இந்த துண்டுபிரசுரத்தை பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="pdf_share_toast">பகிர்வதற்கு PDF ஐ பதிவிறக்கவும்</string>
+    <string name="newsletter_share_toast">பகிர்வதற்கு செய்திமடலை பதிவிறக்கவும்</string>
+    <string name="image_share_toast">பகிர்வதற்கு படத்தைப் பதிவிறக்கவும்</string>
+    <string name="video_download_toast">இந்த வீடியோவை  பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="newsletter_download_toast">இந்த செய்திமடலை  பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="ratechart_download_toast">இந்த ரேட்சார்ட்டை பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <!--<string name="image_share_toast">" பகிர்வதற்கு படத்தைப் பதிவிறக்குக"</string>-->
+    <string name="hello_world">Hello world!</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="home">முகப்பு</string>
+    <string name="view_other_projects">View Other Projects</string>
+    <string name="my_profile">எனது சுருக்கக்குறிப்பு</string>
+    <string name="logout">வெளியேறுதல்</string>
+    <string name="member_profile">உறுப்பினர் சுருக்கக்குறிப்பு</string>
+    <string name="register"><b><u>Become a Free Member</u> ></b></string>
+    <string name="login_id">உள்நுழைவு ஐடி</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="login">உள் நுழைவு</string>
+    <string name="otp">உங்கள் தொகுதி மற்றும் பிளாட் எண்ணை உள்ளிடவும். உங்கள் பதிவு செய்யப்பட்ட மொபைல் எண்ணில் OTP \n பெற.</string>
+    <string name="block">தொகுதி</string>
+    <string name="flat">தட்டையானது</string>
+    <string name="needhelp">உதவி தேவை</string>
+    <string name="continues">தொடரவும்</string>
+    <string name="validationblocks">தயவுசெய்து தொகுதியை உள்ளிடவும்</string>
+    <string name="validationflat">தயவுசெய்து பிளாட் எண்ணை உள்ளிடவும்.</string>
+
+    <string name="verifyotp">OTPயைச் சரிபார்க்கவும்</string>
+    <string name="enterotp">இங்கே OTP ஐ உள்ளிடவும்</string>
+    <string name="resendotp">OTP மீண்டும் அனுப்பப்படும்</string>
+    <string name="didnt_receive">OTP பெறவில்லையா? மீண்டும் அனுப்பு</string>
+
+
+    <string name="forgot_password">கடவுச்சொல் மறந்துவிட்டது</string>
+    <string name="kyc">கே.ஒய்.சி-யை பதிவிறக்கவும்</string>
+    <string name="action_settings">Settings</string>
+    <string name="dashboard">டாஷ்போர்டு</string>
+    <string name="current_rank">தற்போதைய தரவரிசை :</string>
+    <string name="next_eligible_rank">அடுத்த தகுதிக்கான தரவரிசை :</string>
+    <string name="yearly_pnv">வருடாந்திர பி.என்.வி.</string>
+    <string name="current_bv">Current BV :</string>
+    <string name="next_eligible_bv">Next Eligible BV :</string>
+    <string name="total_dv">மொத்த டி.வி.</string>
+    <string name="total_nv">மொத்த என்.வி.</string>
+    <string name="downline_status"><u>கீழ்வரம்பு நிலை</u></string>
+    <string name="downline_status_">கீழ்வரம்பு நிலை</string>
+    <string name="my_downline">எனது கீழ் வரம்பு</string>
+    <string name="last_10_joining"><u>கடந்த 10 சேர்ப்புகள்</u></string>
+    <string name="last_10_joining_">கடந்த 10 சேர்ப்புகள்</string>
+    <string name="member_id">Member ID :</string>
+    <string name="member_name">Member Name :</string>
+    <string name="joining_date">Joining Date :</string>
+    <string name="submit">Submit</string>
+    <string name="nebula">Nebula Infraspace LLP 2016</string>
+    <string name="placement_details">PLACEMENT DETAILS</string>
+    <string name="personal_details">PERSONAL DETAILS</string>
+    <string name="security_information">SECURITY INFORMATION</string>
+    <string name="sponser_id">Sponsor ID *</string>
+    <string name="sponser_id_">Sponsor ID</string>
+    <string name="sponser_name">Sponsor Name *</string>
+    <string name="placement_id">Placement ID *</string>
+    <string name="placement_name">Placement Name *</string>
+    <string name="name">Full Name</string>
+    <string name="gender">பாலினம்</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dateofbirth">Date Of Birth *</string>
+    <string name="address">Address *</string>
+    <string name="city">City *</string>
+    <string name="pincode">Pin Code*</string>
+    <string name="state">State *</string>
+    <string name="mobileno">Mobile No. *</string>
+    <string name="emailid">மின்னஞ்சல் ஐடி</string>
+    <string name="loginpassword">Login Password *</string>
+    <string name="confirmpassword">Confirm Password *</string>
+    <string name="uploadkycform">Upload KYC Form</string>
+    <string name="member_rank">உறுப்பினர் ரேங்க்</string>
+    <string name="phone_number">தொலைபேசி எண்</string>
+    <string name="date_of_joining">சேரும் தேதி</string>
+    <string name="member_address">முகவரி</string>
+    <string name="share_via">Share via</string>
+    <string name="change_password">கடவுச்சொல்லை மாற்றவும்</string>
+    <string name="old_password">பழைய கடவுச்சொல்</string>
+    <string name="new_password">புதிய கடவுச்சொல்</string>
+    <string name="confirm_password">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="cancel">ரத்து</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps3">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nebula_show">இந்தியாவில் வேகமாக வளர்ந்துவரும் நெட்வொர்க் மார்க்கெட்டிங் நிறுவனம்.</string>
+    <string name="nebula_show_join">நெபுலா குடும்பத்தில் சேருங்கள்!</string>
+    <string name="Nebula_privacy_policy_title"><u>Nebula™ User Privacy Policy</u></string>
+    <string name="txtfornebula12"><p align="justify">Being a resolute Network Marketing Company the top priority of Nebula ™ will always be the relationship with its members/associates. We collect information that you would provide directly to us based on the scope of our Nebula™ app.</p></string>
+    <string name="txtfornebulapfor2">Nebula™, as data controller, when activating and using the Nebula™ Services, how Nebula™ receives, collects and uses this data and how you may opt-out at any time, altogether preventing use of the data shared via the Services.</string>
+    <string name="txtfornebulapfor3">Installation and Use</string>
+    <string name="txtfornebulapfor4">After you install and use the Nebula™ App, Nebula™ will collect, process and retain personal information from you and any devices you may use connected with our application. This information may include the following: Storage, geo-location, telephone access, Your IP address, device manufacturer and type, Data operator, IMEI, connection information, screen resolution, camera, usage statistics and device log. This will help us serve you better.</string>
+    <string name="txtfornebulapfor5">Map &amp; Location Information:</string>
+    <string name="txtfornebulapfor6">Nebula™ app would have the access of Google Maps and Location services to enable you to locate our offices from the app itself and we will have a log of your location so that we can provide you the locations of your marketing network and downline members. Similarly members who have you in their marketing network will be able to track your location. Your location will not be public but will be accessible to your direct upline members only.</string>
+    <string name="txtfornebulapfor7">Contacts Information:</string>
+    <string name="txtfornebulapfor8">If you permit the Nebula™ app to access the address book on your device, we may access and store names and contact information from your address book to enable marketing interactions of the concerned contacts based on their history. We will send marketing SMS, emails and/or call your contacts from your phone book. Your contact book is completely private with us and is only meant for marketing and promotional purposes.</string>
+    <string name="txtfornebulapfor9">Device Information:</string>
+    <string name="txtfornebulapfor10">We may collect information about your mobile device, including, for example, the hardware model, operating system and version, software version, IMEI, unique device identifier, advertising identifiers, serial number, device motion information, device IP address and mobile network information. This info will help us understand the device specific issues and help us resolve errors with more precision. Your device information will remain confidential and private with us.</string>
+    <string name="txtfornebulapfor11">Nebula™may use Push Notification Services to notify you about up-dates and important information. In such cases, your phone number may be part of the notification. This message is sent to the push notification service provider, for delivery to your device. You may, however, at any time-opt out or disable push notifications in the Nebula™app.</string>
+    <string name="txtfornebulapfor12">Nebula™app will upload your personal details and your device information on a secure server. This information stored on our server is never circulated or shared with any third party applications or entities.</string>
+    <string name="txtfornebulapfor13">Please note that Nebula™ or Nebula Companies do not responsibility if a user copies, uploads downline data on a third party app or any other server. Please be very cautious before sharing your data with any third party app claiming to be associated with us. Nebula™ app is not responsible for any loss of user data.</string>
+    <string name="site_progress">தள முன்னேற்றம்</string>
+    <string name="site_progress_ahmedabad">தள முன்னேற்றம் ஆவாஸ்</string>
+    <string name="site_progress_dwarka">தள முன்னேற்றம் ஹாதோர்ன்</string>
+    <string name="site_progress_hyderabad">தள முன்னேற்றம் ஆவாஸ் ஹைதராபாத்</string>
+    <string name="dashboard_aavaas">Dashboard Aavaas</string>
+    <string name="dashboard_dwarka">Dashboard Dwarka</string>
+    <string name="starpool">Star pool%</string>
+    <string name="vacation_purchase">Vacation Package Purchased on</string>
+    <string name="no_records_found">No records found..!</string>
+    <string name="level">Level</string>
+    <string name="leg">Leg</string>
+    <string name="joining_date_">Joining Date</string>
+    <string name="email">Email</string>
+    <string name="gbv">GBV</string>
+    <string name="my_sales">எனது விற்பனை</string>
+    <string name="download">பதிவிறக்கங்கள்</string>
+    <string name="my_purchases">எனது கொள்முதல்கள்</string>
+    <string name="generation_income">உருவாக்கிய வருமானம்</string>
+    <string name="generation_income_">Generation Income</string>
+    <string name="star_club_income">ஸ்டார் க்ளப் வருமானம்</string>
+    <string name="three_star_club_income">3 ஸ்டார் க்ளப் வருமானம்</string>
+    <string name="date">Date</string>
+    <string name="tds">TDS</string>
+    <string name="net_amount">Net Amount</string>
+    <string name="shares">Shares</string>
+    <string name="payout">Payout</string>
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="download_kyc">நீங்கள் இந்த கே.ஒய்.சி படிவத்தை  பதிவிறக்க வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+    <string name="app_update">இந்த பயன்பாட்டின் புதிய பதிப்பு இப்போது கிடைக்கிறது. நீங்கள் அதை பதிவிறக்க விரும்புகிறீர்களா?</string>
+    <string name="Rs">\u20B9</string>
+    <string name="projects_">செயல் திட்டங்கள்</string>
+    <string name="my_income">எனது வருமானம்</string>
+    <string name="current_badge">என் தற்போதைய பேட்ஜ்</string>
+    <string name="upcoming_badge">வரவிருக்கும் பேட்ஜ்</string>
+    <string name="last_payout">கடைசியாக பணம் செலுத்தியது</string>
+    <string name="last_payout_date">கடைசியாக பணம் செலுத்திய தேதி</string>
+    <string name="payout_details"><u><i>பணம் செலுத்தல் விவரங்கள்</i></u></string>
+    <string name="amount_received">Amount Received</string>
+    <string name="pending_amount">Pending Amount</string>
+    <string name="installment_amount">Installment Amount</string>
+    <string name="wallet">Wallet</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="trans_type">Transaction Type</string>
+    <string name="credit">Credit</string>
+    <string name="debit">Debit</string>
+    <string name="balance">Balance</string>
+    <string name="waiting_list"><u>Get your waiting number</u></string>
+    <string name="waiting_detail">Please enter following details to know your waiting number:</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="display_waiting">Display Waiting</string>
+    <string name="display_notification">Display Notification</string>
+    <string name="enter_mobile">உங்கள் உறுப்பினர் ஐடியை உள்ளிடவும்</string>
+    <string name="get_password">கடவுச்சொல்லைப் பெறவும்</string>
+    <string name="colon">:</string>
+    <string name="wing">Wing</string>
+    <string name="total_units">Total Units</string>
+    <string name="product_list_ah">ஆவாஸ்(சங்கோதர்),அகமதாபாத்</string>
+    <string name="product_list_dw">ஹாதோர்ன் அடுக்கு அறைகள் (Suites)</string>
+    <string name="product_list_hay">ஆவாஸ், ஹைதராபாத்</string>
+    <string name="product_list_ah1">Aavaas (Changodar), Ahmedabad</string>
+    <string name="product_list_dw1">Hawthorn Suites, Dwarka</string>
+    <string name="product_list_hay1">Aavaas (Miyapur), Hyderabad</string>
+    <string name="product_list_complex">Aavaas Changodar Complex</string>
+    <string name="product_list_holiday">Holiday</string>
+    <string name="product_list_chennai">Aavaas, Chennai</string>
+
+    <string-array name="product_list">
+        <item>Aavaas (Changodar), Ahmedabad</item>
+        <item>Hawthorn Suites, Dwarka</item>
+        <item>Aavaas, Hyderabad</item>
+        <item>Aavaas (Chennai), Chennai</item>
+    </string-array>
+    <string name="aavaas_Phase_one">கட்டம் I</string>
+    <string name="aavaas_Phase_two">கட்டம் II</string>
+    <string name="aavaas_Phase_three">கட்டம் III</string>
+    <string name="aavaas_Phase_threea">கட்டம் III ஏ</string>
+    <string name="about_us">எங்களைப் பற்றிய தகவல்</string>
+    <string name="Promoters">நிறுவன துவக்காளர்கள்</string>
+    <string name="RetailIncome_AavaasAhmedabad">சில்லரை வருமானம்</string>
+    <string name="Booster_Income_AavaasAhmedabad">வருமான உயர்த்தி</string>
+    <string name="booster_income">Booster Income</string>
+    <string name="super_booster_income">Super Booster Income</string>
+    <string name="SuperBoosterIncome_AavaasAhmedabad">சூப்பர் வருமான உயர்த்தி</string>
+    <string name="LeadershipBonus_AavaasAhmedabad">தலைமைக்கான போனஸ்</string>
+    <string name="Brokerage_dwarka">தரகு ஊதியம்</string>
+    <string name="LoyalityProgram_dwarka">பற்றுறுதி திட்டம்</string>
+    <string name="SUBoosterIncome_dwarka">எஸ்.யு. வருமான உயர்த்தி</string>
+    <string name="su_booster">SU Booster Income</string>
+    <string name="car_program">Car Program Income</string>
+    <string name="CarProgramIncome_dwarka">கார் திட்டத்தின் வருமானம்</string>
+    <string name="logout_show">நிச்சயமாக நீங்கள் வெளியேற விரும்புகிறீர்களா?</string>
+    <string name="update_now">இப்போது அப்டேட் செய்யவும்</string>
+    <string name="update_later">பிறகு அப்டேட் செய்யவும்</string>
+    <string name="Coming_Soon">விரைவில் வருகிறது</string>
+    <string name="Network_is_not_available">நெட்வொர்க் கிடைக்கவில்லை</string>
+    <string name="PlacementTree">வேலைவாய்ப்பு ட்ரீ</string>
+    <string name="SponsorTree">ஸ்பான்ஸர் ட்ரீ</string>
+    <string name="enter_login_id_password">உள்நுழைவு ஐடியையும், கடவுச்சொல்லையும் உள்ளிடவும்</string>
+    <string name="enter_login_id">உள்நுழைவு ஐடியை உள்ளிடவும்</string>
+    <string name="enter_login_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="language">மொழி</string>
+    <string name="change">மாற்றம்</string>
+    <string name="title_app_lan">பயன்பாட்டு மொழி</string>
+    <string name="title_for_nebula_app_lang">Nebula Appliction Support Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_gujarati">ગુજરાતી</string>
+    <string name="yes">சரி</string>
+    <string name="no">ரத்து</string>
+    <string name="insufficient_storage">Insufficient storage</string>
+    <string name="view_storage">VIEW STORAGE</string>
+    <string name="cancel_storage">CANCEL</string>
+    <string name="view_device_message_newsletter">This device doesn\'t have enough space to download this newsletter. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_video">This device doesn\'t have enough space to download this video. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_brochure">This device doesn\'t have enough space to download this e-brochure. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_leaflet">This device doesn\'t have enough space to download this leaflet. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_bookingform">This device doesn\'t have enough space to download this booking form. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_ratechart">This device doesn\'t have enough space to download this rate chart. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_kyc">This device doesn\'t have enough space to download this KYC Form. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="head_office_ahmedabad">தலைமை அலுவலகம், அகமதாபாத்</string>
+    <string name="site_address_ahmedabad">ஆவாஸ், வில்லேஜ் மொறையா, சங்கோதர், அகமதாபாத்-ராஜ்கோட் நெடுஞ்சாலை, அகமதாபாத் - 382 213</string>
+    <string name="site_office_ahmedabad">தள அலுவலகம், அஹமதாபாத்</string>
+    <string name="ahmedabad_">அகமதாபாத்</string>
+    <string name="corporate_office_hyderabad">கார்ப்பரேட் அலுவலகம், ஹைதராபாத்</string>
+    <string name="corporate_office_hyderabad_address">அலுவலகம்: 606, 6 வது மாடி, மன்ஜிரா மெஜஸ்டிக் கமர்ஷியல், ஜே.என்.டீ.யு, குகட்பள்ளி ஹவுஸிங் போர்டு காலனி, குகட்பள்ளி, ஹைதராபாத், தெலுங்கானா - 500072</string>
+    <string name="site_office_hyderabad">தள அலுவலகம், ஹைதராபாத்</string>
+    <string name="site_office_hyderabad_address">பச்சுபுலி ரோடு, கிருஷ்ணஜா ஹில்ஸ், நிஜாம்பெட், ஹைதராபாத், தெலுங்கானா - 502325</string>
+    <string name="hyderabad">ஹைதராபாத்</string>
+    <string name="hyderabad_email_address"><u>hyderabad@nebulacompanies.com</u></string>
+    <string name="corporate_office_kolkata">கார்ப்பரேட் அலுவலகம், கொல்கத்தா</string>
+    <string name="corporate_office_kolkata_address">அரிஹந்த் பில்டிங் கொலின் எல்என், தால்தலா, கொல்கத்தா, மேற்கு வங்கம் - 700016</string>
+    <string name="kolkata">கொல்கத்தா</string>
+    <string name="lang_not_supported">This feature is not supported in your device.</string>
+    <string name="pick_image_intent_text">pick image</string>
+    <string name="testimonials">Testimonials</string>
+    <string name="customer_profile">Profile</string>
+    <string name="customer_change_request">Change Request</string>
+    <string name="booking_date">Date of Booking</string>
+    <string name="date_change">Date Change Deadline/ Plan Change Deadline</string>
+    <string name="cancel_date">Final Date for Free Cancellation</string>
+    <string name="arrival">Arrival in Thailand</string>
+    <string name="depart">Depart from Thailand</string>
+    <string name="PackageName">Package</string>
+    <string name="PackageDate">Package Date</string>
+    <string name="UserName">User Name</string>
+    <string name="CreateDate">Booking Date</string>
+    <string name="CustomerName">Customer Name</string>
+    <string name="State">State</string>
+    <string name="City">City</string>
+    <string name="Pincode">Pincode</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="Customer_Profile">Customer Profile</string>
+    <string name="my_rank">My Rank</string>
+    <string name="customers_name">Customer\'s Name</string>
+    <string name="seller_ibo">Seller (IBO)</string>
+    <string name="seller_ibo_id">Seller\'s (IBO) ID</string>
+    <string name="seller_ibo_rank">Seller\'s (IBO) Rank</string>
+    <string name="trip_date">Trip Date</string>
+    <string name="package_name">Package</string>
+    <string name="date_change_request">Date Change Request</string>
+    <string name="plan_change_request">Plan Change Request</string>
+    <string name="name_change_request">Name Change Request</string>
+    <string name="cancel_request">Cancel my Trip</string>
+    <string name="plan_change_text1">"You are currently under "</string>
+    <string name="plan_change_text2"><u>Click Here</u> to change plan.</string>
+    <string name="cancel_text">Are you sure you want to cancel this trip.?</string>
+    //Itinerary
+    <string name="dayone">Land in Bangkok to a warm welcome! Our  representative will take you on a 2.5 hour drive to Pattaya, a breathtakingly beautiful beach destination. It is here that you can hit the bars, bask on the beaches, shop till you drop, pamper yourself with a massage and relish mouth-watering Thai cuisine. And what does one say about the nightlife in Pattaya? Well, it is one of the most happening in the world.</string>
+    <string name="dayone_second_text">You can spend the evening at leisure. Though we recommend you see the Alcazar Show, a world-famous cabaret that can give the Lido and Moulin Rouge a run for their money. Featuring a grand theatre with 1,200 seats and a state-of-the-art light and sound system, the Alcazar offers a unique blend of acting, stage design, costumes and glamour. Feel free to connect with our representative to take this optional tour at the best price.
+Savour a delightful dinner at our suggested  restaurant and head to the comfort of your hotel.
+Return to your hotel for a restful overnight stay.
+</string>
+    <string name="daytwo">After a scrumptious breakfast at the hotel, speedboat your way to the idyllic Coral Island (KohLan) through the sparkling aqua-blue waters of the Gulf of Thailand. Spend the day under the warm tropical sun - relax, swim, snorkel or just laze around on the island\'s immaculate golden beaches. You can also dive down into the waters to witness the marine life up and close. Lunch is provided after the sightseeing.</string>
+    <string name="daythree">Recharge yourself with a healthy breakfast at the hotel and embark on a pleasant journey back to Bangkok - the city of temples, spas, endless shopping sprees and a vivid nightlife.</string>
+    <string name="daythree_second_text">Our city tour takes you to some of Bangkok\'s most distinguished Buddhist temples locally known as Wat Wat Pho, Temple of the Reclining Buddha that is home to the largest and the oldest shrine of its kind in Bangkok. Enjoy a shopping spree at the Gems Gallery next in pattaya enroute Bangkok &amp; Reclining Buddha in Bangkok
+Savour a delightful dinner at our suggested restaurant and head to the comfort of your hotel.</string>
+    <string name="dayfoure">Full day is at leisure at Bangkok to explore unlimited shopping opportunities or visit Safari world &amp; Marine Park.
+Savour a delightful dinner at our suggested restaurant and head to the comfort of your hotel.</string>
+    <string name="dayfive">Post breakfast, c/out and depart for airport to board your flight back home. </string>
+    <string name="dayone_title">Day 1: Bangkok - Pattaya</string>
+    <string name="daytwo_title">Day 2: Coral Island Tour in Pattaya</string>
+    <string name="daythree_title">Day 3: Pattaya - Bangkok</string>
+    <string name="dayfoure_title">Day 4: Bangkok</string>
+    <string name="dayfive_title">Day 5: Bangkok - Airport</string>
+    <string name="car_include"><b>Sightseeing</b> Included</string>
+    <string name="hotels_upto"><b>Hotels</b> 3 Star or more</string>
+    <string name="primary_guest">Primary Guest</string>
+    <string name="check_in">Check in</string>
+    <string name="check_out">Check out</string>
+    <string name="night">Nights</string>
+    <string name="room">Rooms</string>
+    <string name="room_one">1</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="nebula_payable">Nebula Payable at Hotel</string>
+    <string name="nebula_payable_show">\u20B9 15000 + tax</string>
+    <string name="pattaya">Pattaya</string>
+    <string name="hotel_one_title">The Seasons (or similar)</string>
+    <string name="hotel_second_title">Seasons Siam (or similar)</string>
+    <string name="guests">9 guests</string>
+    <string name="rooms">2 rooms</string>
+    <string name="beds">6 beds</string>
+    <string name="bath">1 bath</string>
+
+    <string name="ibo_vaction_Retail"><u>Retail\nIncome</u></string>
+    <string name="ibo_vaction_downline"><u>Downline\nSales</u></string>
+    <string name="ibo_vaction_booster"><u>Holiday\nBooster</u></string>
+    <string name="ibo_vaction_SV"><u>Spot\nIncome</u></string>
+    <string name="ibo_vaction_statastics">Statastics</string>
+    <string name="itinerary">Itinerary</string>
+    <string name="Policies">T &amp; C</string>
+    <string name="business_plan">Business Plan</string>
+    <string name="faqs">FAQs</string>
+
+    <string name="retail_income">Retail Income</string>
+    <string name="downline_sales">Downline Sales</string>
+    <string name="vacation_booster">Holiday Booster</string>
+    <string name="Statistics">Statistics</string>
+    <string name="main_leg">Main Leg</string>
+    <string name="weaker_leg">Weaker Leg</string>
+    <string name="weakest_leg">Weakest Leg</string>
+    <string name="ibo_id">IBO ID</string>
+    <string name="ibo_name">IBO Name</string>
+    <string name="traveller_name">Traveller Name</string>
+    <string name="trip_detail">Trip Detail</string>
+    <string name="trip_inclusions">Trip package inclusions</string>
+    <string name="trip_list_one">Seat in coach transfers and sightseeing ( Coach is non exclusive).</string>
+    <string name="trip_list_two">2 nights with breakfast at 3* Deluxe Hotel in Bangkok (All Seasons Siam or similar).</string>
+    <string name="trip_list_three">2 nights with breakfast at 3* Deluxe Hotel in Pattaya ( All Seasons Pattaya or similar).</string>
+    <string name="trip_list_four">4 dinners in Indian restaurant without transfers.</string>
+    <string name="trip_list_five">Half day coral island tour with lunch.</string>
+    <string name="trip_list_six">Half day Bangkok city tour with gems gallery. No Lunch.</string>
+    <string name="trip_list_seven">Travel Insurance</string>
+    <string name="status">Status</string>
+
+    <string name="not_eligible_for_booster">You are not eligible for Holiday Booster.</string>
+    <string name="eligible_for_booster">You are now eligible for Holiday Booster.</string>
+    <string name="eligible_for_booster1">You have used a free package tour to Thailand.</string>
+    <string name="t_and_c">T &amp; C :-</string>
+    <string name="details">Details</string>
+    <string name="Smoke_Free">Free WiFi</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="vacation_sv">Spot Income</string>
+    <string name="cities_included">Cities included</string>
+    <string name="thailand_trip">நெபுலா விடுமுறை</string>
+    <string name="thailand_trip_">நெபுலா \nவிடுமுறை</string>
+    <string name="traveller_details"><b><u>Traveller Details</u></b></string>
+
+    <string-array name="amenities">
+        <item>Business Center</item>
+        <item>24-Hour Front Desk</item>
+        <item>Air Conditioning</item>
+        <item>Daily Housekeeping</item>
+        <item>Front Desk Safe</item>
+        <item>Laundry Service</item>
+        <item>Luggage Storage</item>
+        <item>268 Smoke-Free Guestrooms</item>
+    </string-array>
+
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="package_detail">Bask in the sunshine of Thai beaches and landscapes. Our all exclusive package gives you an opportunity of a lifetime.</string>
+    <string name="booking_form">Booking Form</string>
+    <string name="married">Married</string>
+    <string name="single">Single</string>
+    <string name="passport">Passport</string>
+    <string name="pass_ex_date">Passport Expiry Date</string>
+    <string name="p_one">Season-1</string>
+    <string name="p_two">Season-2</string>
+    <string name="room_preference">Room Preference</string>
+    <string name="twin_sharing">Twin Sharing</string>
+    <string name="double_bed">Double Bed</string>
+    <string name="group_booking_name">Reference Group Booking Id</string>
+
+    <string-array name="payment_detail">
+        <item>Select payment mode</item>
+        <item>Cheque</item>
+        <item>NEFT</item>
+        <item>RTGS</item>
+        <item>DD</item>
+    </string-array>
+
+    <string name="vacation_kyc"><u>Booking Form</u></string>
+    <string name="holiday_booking_form">Holiday Booking Form</string>
+    <string name="help">How can we help?</string>
+    <string name="modify_booking">Modify booking</string>
+    <string name="about_modify">FAQs about modifying booking</string>
+    <string name="thank_you"><b>Thank you</b></string>
+    <string name="Travel_booking_form_sumbit">You have successfuly submitted your Travel booking form. We will verify your booking payment and let you know.</string>
+
+    //Holiday Contact Us
+    <string name="vacation_contact_hyd_address">South India 420, 4th Floor, Manjeera Majestic Commercial, Adj - Raithu Bazaar KPHB, Hyderabad - 500 072.</string>
+    <string name="vacation_contact_hyd_phone_one"><u>+91 40 4613 6600</u></string>
+    <string name="vacation_contact_hyd_phone_two"><u>+91 40 4613 6616</u></string>
+    <string name="vacation_contact_hyd_email"><u>holidays_south@nebulacompanies.com</u></string>
+    <string name="vacation_contact_ahmedabad_phone_one"><u>+91 79 6621 2222</u></string>
+    <string name="vacation_contact_ahmedabad_phone_two">Toll Free No: <u>1800 419 2299</u></string>
+    <string name="vacation_contact_ahmedabad_email"><u>holidays@nebulacompanies.com</u></string>
+
+    <string name="distribution_chart_vacation">Distribution Chart</string>
+    <string name="distribution_brochure_vacation">Brochure</string>
+    <string name="distribution_documents">Documents</string>
+    <string name="select_your_arrival">Please select your arrival date</string>
+
+    <string name="info_vacation">Inclusions</string>
+    <string name="food"><b>Meals</b> Breakfasts, Dinners, 1 Lunch</string>
+
+    //FAQs
+    <string name="general">General</string>
+    <string name="things_to_do">Things to do/Major Attractions</string>
+    <string name="packaging_purgatory">What Should I Pack</string>
+    <string name="monetary_issues">Monetary issues</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="meals">Meals</string>
+    <string name="passport_visa">Passport and Visa</string>
+
+    <string name="general_ansone">Thailand, “Land of smiles” is a traveller’s delight because it offers an exciting variety of things to do, be it in terms eating, tourist attractions, shopping, and lots more. In fact, Thailand is the perfect place to unwind at for everyone. This place offers great hospitality and even the locals here will welcome you with a beautiful smile.</string>
+    <string name="general_ansthree">Thailand has a very low crime rate and is generally a safe country. However, as with any international travel, please be aware of your surroundings. Always make sure your purse is zipped and wallets are in sealed pockets. In the markets, be vigilant of pick-pockets and distraction scams. Additionally, at the train/bus stations and airports monitor your luggage at all times.</string>
+    <string name="general_ansfour">Many Thais speak English, but often it\'s not quite the same English you know. Although they may understand a few common words.</string>
+    <string name="general_ansfive">Land Tour Package is a combination of accommodation +Transfers +Sightseeing for Domestic and International travel. (Flight and visa charges extra)/Flight and visa charges are not a part of the package.</string>
+    <string name="general_anssix">Once you submit your booking travel form, our accounts team will verify your payment. Upon the successful verification of the payment, your booking is confirmed. You can see the status of your booking confirmation by logging into our android application with your booking ID and provided password. You are now eligible to select your arrival date in Thailand.</string>
+    <string name="general_anseight">Air Tickets and visa charges and anything that is not mentioned under the package inclusions head.</string>
+    <string name="general_ansten">Yes, Once the booking is confirmed for a date, the customer can change the date of travel, before 15 clear days, between the date of change request and date of check in, at a nominal charge of INR 2500+GST.</string>
+    <string name="general_ans11">The last date to select your travel date is 15 days before the selected season ends.</string>
+    <string name="general_ans12">The customer can cancel within 7 days from the date of purchase. Intimate in writing to the company stating their wish to cancel the purchase, the same shall entitle them for full refund.</string>
+    <string name="general_ans13">The customer is entitled to get a refund only if he cancels the booking within 7 days of the date of booking. No changes shall be allowed for a shorter clear days. Company follows a strict policy of no show no refund.</string>
+
+    <string name="packaging_ans1">Essentials are a swimming costume, a day pack, a raincoat/umbrella in rainy season and some warm clothes if travelling in October to December, as some areas get cool. Bring as little as possible. If you forget something, you can probably buy it in Bangkok.</string>
+    <string name="packaging_ans2">Unless you\'re planning on camping, leave the sleeping bag at home and just take a sleeping sheet. If you are planning a lot of wet-season walking, heavy hiking boots are not needed -- we\'d suggest going with a pair of sturdy sandals instead. Be selective in how much music you bring as you can always buy more.</string>
+
+    <string name="money_ans1">The currency there in Thailand is termed as “Thai Bhat” and yes, this facility is available at the airport.</string>
+    <string name="money_ans2">The traveller is suggested to carry minimum INR 20,000 for an individual and INR 40,000 baht per family.</string>
+    <string name="money_ans3">As per current conversion rate, 1 INR = 0.52 Thai Bahts.</string>
+
+    <string name="accommodation_ans1">Accommodation for a larger group of people in a single hotel will be subject to availability, and the occupancy will be on twin sharing basis even if the person is travelling solo. The transfers from airport to hotel and hotel to airport will be provided by the company.</string>
+    <string name="accommodation_ans2">The occupancy preference will mostly be on twin sharing basis, but on request it can be updated to double bed.</string>
+
+    <string name="meals_ans1">Buffet breakfasts and 4 dinners at our suggested Indian restaurants are included in the package. The traveller can explore other food attractions while on a tour.</string>
+    <string name="meals_ans2">The package itself provides you with the best in quality food. So, the cost of the package remains fixed. The customer can always enjoy the local cuisine and traditional dishes at their own will. </string>
+
+    <string name="passport_ans1">While booking you may/may not require the passport. But while travelling overseas a passport is a must. Hence, we recommend you to apply for the passport once you avail this package.</string>
+    <string name="passport_ans2">The passport shall be valid for at least 6 months from the date of arrival in Thailand.</string>
+    <string name="passport_ans4">Since the purpose of your travel is leisure and your visa will be applied on the basis of the tour package you have purchased, the application and process will be as per the requirement of Tourist visa.</string>
+    <string name="passport_ans5">Yes, the passport having validity of minimum 6 months or more is accepted for Thailand visa.</string>
+    <string name="passport_ans6">If the customer is already having visa and has purchased the package he can travel with the group and can enjoy the benefits in package.</string>
+    <string name="passport_ans7">Yes, according to the Thailand embassy checklist.  For application and visa process the person travelling to Thailand shall compulsorily hold overseas travel insurance. </string>
+
+    <string name="fsqs_ibo_ans1">As an IBO you will be entitled to earn Retail Income on every sale. Every package will have BV and NV attached to the sale. If you are a Star Platinum or 3 Star Platinum you will also benefit from the sale of this package. Kindly refer to our Holiday Business plan for more details.</string>
+    <string name="fsqs_ibo_ans2">Holiday Rewards are the bonuses given by Nebula to the IBO’s for their team effort. Based on the sales of Holiday packages in an IBO’s downline, they will be eligible for various rewards. Kindly refer to our Holiday Business plan for more details.</string>
+    <string name="fsqs_ibo_ans3">Nebula brings to you the Holiday Booster wherein you can sell or Sponsor 10 packages to avail your free Holiday package. You can redeem this package by providing a written request to the nearest Nebula office. You shall receive your traveller login upon successful processing of your request.</string>
+    <string name="fsqs_ibo_ans4">As an IBO you shall take the benefit of the discounted package price of ₹14250+GST. In addition to this the IBO sponsoring you shall receive our Spot Volume benefit.</string>
+    <string name="fsqs_ibo_ans5">In case of any technical issue while filling the online booking form, kindly download and print the physical booking form. Fill the form and deposit it at your nearest Nebula office.</string>
+    <string name="fsqs_ibo_ans6">You can go to our Documents section and download the Business plan. Similarly, you can download the Holidays Distribution chart from the Documents section on your Holiday dashboard.</string>
+    <string name="fsqs_ibo_ans7">Unfortunately, we do not accept cash payments. You can select your payment mode as Cheque, DD, NEFT and RTGS. You can deposit the cheques at your nearest Nebula office.</string>
+
+    // T &amp; C
+    <string name="vacation_booster_tc">To be eligible for Holiday Booster you need to sell or Sponsor 10 packages to avail your free Holiday package.
+You can redeem this package by providing a written request to the nearest Nebula office. You shall receive your traveller login upon successful processing of your request.
+This is a onetime Bonus and cannot be redeemed after the Season-2 ends.
+Trip conditions will be same as that of a normal Customer. Kindly read the Terms &amp; Conditions for Holiday trip before availing your free trip.</string>
+
+    <string name="vacation_tc_para1">The purchase entitles the customer to a 4nights/5days land only holiday package to Thailand.</string>
+    <string name="vacation_tc_para2">For the detailed inclusions and project highlights kindly refer our brochure our company website.</string>
+    // Booking Form
+    <string name="booking_form_step1">Traveller Details</string>
+    <string name="booking_form_step2">Other Details</string>
+    <!--<string name="booking_form_step2">Emergency Contact Details</string>-->
+    <string name="booking_form_step3">Traveller Preference</string>
+    <string name="booking_form_step4">Payment Details</string>
+    <string name="booking_form_step5">Uploads</string>
+
+    <string name="step1_iboid">*IBO Id</string>
+    <string name="step1_firstname">*First Name</string>
+    <string name="step1_lastname">*Last Name</string>
+    <string name="step1_gender">*Gender</string>
+    <string name="step1_maritalstatus">*Marital Status</string>
+    <string name="step1_dob">*Date of birth</string>
+    <string name="step1_address">*Address</string>
+    <string name="step1_mobilenumber">*Mobile Number</string>
+    <string name="step1_alternatenumber">Alternate Number</string>
+    <string name="step1_city">*City</string>
+    <string name="step1_pincode">*Pincode</string>
+    <string name="step1_emailid">*Email ID</string>
+    <string name="step1_passport">Passport No.</string>
+    <string name="step1_passportexpdate">Passport Expiry Date</string>
+    <string name="step2_emgname">*Emergency Contact Name</string>
+    <string name="step2_emgnumber">*Emergency Contact Number</string>
+    <string name="step3_season">*Season</string>
+    <string name="step3_roompreference">*Room Preference</string>
+    <string name="step4_paymentmode">*Select Payment Mode:</string>
+    <string name="step4_bankname">*Bank Name</string>
+    <string name="step4_paymentnumber">*Reference No.</string>
+    <string name="step4_paymentdate">*Date</string>
+    <string name="step5_1">1.</string>
+    <string name="step5_2">2.</string>
+    <string name="step5_passport"> Upload Passport</string>
+    <string name="step5_idproof">*Upload ID proof</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="summary">Summary</string>
+    <string name="proceed_to_payment">Proceed to payment</string>
+
+    // State List
+    <array name="State">
+        <item>Please select your state</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu &amp; Kashmir</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Chhattisgarh</item>
+        <item>Uttarakhand</item>
+        <item>Jharkhand</item>
+        <item>Telangana</item>
+    </array>
+
+
+    <!--Modified By Jadav Chirag-->
+    <string name="str_personal_name_digits">qwertzuiopasdfghjklyxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="title_activity_navigation">Nebula</string>
+
+    <!--Navigation Drawer.-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_my_trip">My Trips</string>
+    <string name="nav_gallery">Attractions</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_offer">Offer</string>
+    <string name="nav_flight">Flights</string>
+    <string name="nav_t_and_c">Terms &amp; Conditions</string>
+    <string name="nav_form">Traveller Booking Form</string>
+    <string name="nav_faq">FAQs</string>
+    <string name="nav_contact_us">Contact Us</string>
+    <string name="nav_others">OTHERS</string>
+    <string name="nav_reviews">Reviews</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_share_it">Share It</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_logout">Logout</string>
+
+    <string name="str_loading">Loading</string>
+    <string name="str_calendar">Calendar</string>
+    <string name="str_itinerary">Itinerary</string>
+    <string name="str_traveller_details">Traveller Details</string>
+    <string name="str_package_title">Thailand Packages</string>
+    <string name="str_package_first_day">Thailand \n(Bangkok/Pattaya)</string>
+    <string name="str_free_wifi">Free Wifi</string>
+    <string name="str_restaurant">Restaurant</string>
+    <string name="str_breakfast">Breakfast</string>
+    <string name="str_more_amenities">8+</string>
+    <string name="str_amenities">Amenities</string>
+    <string name="str_details">Standard King Room, Hotels 3 Star or more, Meals include breakfast and dinner.</string>
+    <string name="str_package_normal_details">Bask in the sunshine of Thai beaches and landscapes. Our all exclusive package gives you an opportunity of a lifetime.</string>
+
+    <!--Package Details-->
+    <string name="str_bangkok_pattaya">Bangkok Pattaya</string>
+    <string name="str_trip_type">Shopping,Nightlife ~ Family</string>
+    <string name="str_amenities_offer"> ~ Free Wifi in Coaches \n~ Breakfast at Lounge on Arrival \n~ 268 Free Smoke Guestrooms. </string>
+    <string name="str_bought_count">271 Bought</string>
+    <string name="str_hotel">Hotels</string>
+    <string name="str_hotel_sub_details">3 Star included</string>
+    <string name="str_meal_title">Meals</string>
+    <string name="str_included">included</string>
+    <string name="str_meal_details">Breakfast\'s,Dinners , Lunch</string>
+    <string name="str_sightseeing">Sightseeing</string>
+    <string name="str_cites_included">CITIES INCLUDED</string>
+    <string name="str_pattaya">Pattaya</string>
+    <string name="str_two_day">2N</string>
+    <string name="str_bangkok">Bangkok</string>
+    <string name="str_three_day">2N</string>
+    <string name="title_activity_scrolling">Thailand</string>
+    <string name="str_duration">5 Days \n 4 Nights</string>
+
+    <!--Inclusion Summary-->
+    <string name="str_inclusion_summary">Inclusions summary</string>
+    <string name="str_tap_to_view_details">Tap to view details</string>
+    <string name="str_transfers">Transfers</string>
+    <string name="str_hotel_seasons">The Seasons Hotel</string>
+    <string name="str_hotel_seasons_siam">Hotel Seasons Siam</string>
+    <string name="str_other_inclusion_title">Other Inclusions</string>
+
+    <string name="str_other_inclusion">
+    \n<li>Seat in coach transfers and sightseeing(Coach is non exclusive). </li>
+    \n\n<li>2 nights with breakfast at 3* Deluxe Hotel in Pattaya (All Seasons Pattaya or similar).</li>
+    \n\n<li>2 nights with breakfast at 3* Deluxe Hotel in Bangkok(All Seasons Siam or similar).</li>
+    \n\n<li>4 dinners in Indian restaurant without transfers.</li>
+    \n\n<li>Half day coral island tour with lunch.</li>
+    \n\n<li>Half day Bangkok city tour with gems gallery(No Lunch).</li>
+    \n\n<li>Travel Insurance</li></string>
+
+    <string name="popup_str_other_inclusion">
+    \n\t<li>Seat in coach transfers and sightseeing(Coach is non exclusive). </li>
+    \n\n\t<li>2 nights with breakfast at 3* Deluxe Hotel in Pattaya (All Seasons Pattaya or similar).</li>
+    \n\n\t<li>2 nights with breakfast at 3* Deluxe Hotel in Bangkok(All Seasons Siam or similar).</li>
+    \n\n\t<li>4 dinners in Indian restaurant without transfers.</li>
+    \n\n\t<li>Half day coral island tour with lunch.</li>
+    \n\n\t<li>Half day Bangkok city tour with gems gallery(No Lunch).</li>
+    \n\n\t<li>Travel Insurance</li></string>
+
+    <string name="str_view_more">VIEW MORE</string>
+    <string name="str_view_less">VIEW LESS</string>
+    <string name="str_read_more">Read More</string>
+    <string name="str_itinerary_title">Itinerary - 5 Days</string>
+    <string name="str_view_complete_itinerary">VIEW COMPLETE ITINERARY</string>
+
+    <!--Itinerary Details-->
+    <string name="str_day">Day </string>
+    <string name="str_season_one">Season - 1</string>
+    <string name="str_season_two">Season - 2</string>
+    <string name="str_select_date">Select Date</string>
+    <string name="str_review">Review</string>
+    <string name="str_view_all_reviews">VIEW ALL REVIEWS</string>
+    <string name="str_write_review">Write Review</string>
+
+    //login string
+    <string name="login_to_view">Login to view</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_username_and_password">Enter Username and Password</string>
+    <string name="write_review">Write review...</string>
+    <string name="dialog_submit">Submit</string>
+    <string name="video">Videos</string>
+    <string name="gallery">Gallery</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="currency_conversion">Currency Converter</string>
+    <string name="indian_rupee_title">1 Indian Rupee equals</string>
+    <array name="country_name">
+        <item>Indian Rupee</item>
+        <item>Thai Baht</item>
+        <item>US Dollar</item>
+    </array>
+    <string name="modifiy_booking"><u>Modifiy booking</u></string>
+
+    // Reviews
+    <string name="give_one_rate">Poor</string>
+    <string name="give_two_rate">Average</string>
+    <string name="give_three_rate">Good</string>
+    <string name="give_four_rate">Very good</string>
+    <string name="give_five_rate">Excellent</string>
+    <string name="write_submit">SUBMIT</string>
+    <string name="write_cancel">CANCEL</string>
+    <string name="by">By</string>
+
+    <string name="prompt_more_details">More Details</string>
+    <string name="prompt_download">Download</string>
+    <string name="prompt_share">Share</string>
+    <string name="prompt_hotel_overview">Hotel Overview</string>
+    <string name="prompt_read_less">Read Less</string>
+    <string name="prompt_places_to_visit">Places to visit</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <!--Thailand Holiday  -->
+
+    <string name="give_storage_permission">Please give storage permission from settings</string>
+    <string name="income">Income</string>
+    <string name="amount">Amount</string>
+    <string name="str_camera">Camera</string>
+    <string name="str_gallery">Gallery</string>
+
+    <string name="dv_title">Dv</string>
+    <string name="dv_redeemed">DV Redeemed</string>
+    <string name="dream_volume">Dream Volume</string>
+    <string name="star_pool_income">Star Pool Income</string>
+    <string name="three_star_pool_income">3 Star Pool Income</string>
+    <string name="aavaas_miyapur_title">Aavaas (Miyapur), Hyderabad</string>
+
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>తెలుగు</item>
+        <item>ગુજરાતી</item>
+    </string-array>
+
+    <string-array name="my_income_item">
+        <item>Aavaas (Changodar), Ahmedabad</item>
+        <item>Hawthorn Suites, Dwarka</item>
+        <item>Aavaas, Hyderabad</item>
+        <item>Aavaas Changodar Complex</item>
+        <item>Generation Income</item>
+        <item>Gold Income</item>
+        <item>Star Club Income</item>
+        <item>3 Star Club Income</item>
+        <item>Spot Vacation Income</item>
+    </string-array>
+
+    <string name="error_msg_network">Network is not available.</string>
+    <string name="error_service_unavailable">Service unavailable</string>
+    <string name="error_no_records">No records found.</string>
+    <string name="error_internal_server">Internal server error</string>
+
+    //translation is required
+    <string name="ibo_login">IBO அலுவலகம்</string>
+    <string name="volume">Volume</string>
+    <string name="other">Others</string>
+    <string name="rank_history">Rank History</string>
+    <string name="income_history">Income History</string>
+    <string name="bv1">BV</string>
+    <string name="next_bv">Next BV</string>
+    <string name="monthly_bv">Monthly BV</string>
+    <string name="updates">Updates</string>
+    <string name="personal_updates">Your Updates</string>
+    <string name="team_updates">Team Updates</string>
+    <string name="new_joinees">New Joinees</string>
+    <string name="downline_ranks">Downline Ranks</string>
+    <string name="family_view">Family View</string>
+    <string name="ibo_list">IBO List</string>
+
+    <string name="prompt_my_account">My Account</string>
+    <string name="prompt_personal_info">Personal Detail</string>
+    <string name="prompt_bank_info">Bank Detail</string>
+    <string name="prompt_member_id">Member ID : \t</string>
+    <string name="prompt_member_rank">Member Rank : \t </string>
+    <string name="prompt_ibo_name">Name : \t </string>
+    <string name="prompt_phone_no">Phone Number : \t </string>
+    <string name="prompt_email_id">Email ID : \t </string>
+    <string name="prompt_date_of_join">Date Of Joining : \t </string>
+    <string name="prompt_gender">Gender : \t </string>
+    <string name="prompt_address">Address : \t </string>
+    <string name="prompt_bank">Bank : \t </string>
+    <string name="prompt_branch">Branch : \t </string>
+    <string name="prompt_bank_city">Branch City : \t </string>
+    <string name="prompt_ifsc_code">IFSC Code : \t </string>
+    <string name="prompt_account_holder">Account Holder : \t </string>
+    <string name="prompt_account_no">Account No. : \t </string>
+
+    <!--IBO GEO Location-->
+    <string name="prompt_your_location">Your Detected Location</string>
+    <string name="prompt_ibo_geo_location">Geo Location</string>
+    <!--End-->
+
+    //Holiday
+    <string name="customer">Customer</string>
+    <string name="ibo">IBO</string>
+    <string name="travel_name">Travel Name</string>
+    <string name="package_status">Package Status</string>
+    <string name="downline_name">Name</string>
+    <string name="proceed">Proceed</string>
+    <string name="holiday_logout_message">You will be logged out from Nebula Holiday.</string>
+
+    <string name="sponsor_id_sales">Sponsored ID</string>
+    <string name="customer_sales">Customer Sales</string>
+    <string name="sponsor_sales_achiever">Sponsored Sales Achiever</string>
+    <string name="customer_sales_achiever">Customer Sales Achiever</string>
+    <string name="moblie">Phone</string>
+    <string name="achiever_income">Achiever Income</string>
+    <string name="achiever_sales">Achiever Sales</string>
+    <string name="achiever_bonus">Select your achiever bonus: </string>
+    <string name="achiever_bonus1">Fligh Ticket</string>
+    <string name="achiever_bonus2">\u20B9 17,000/-</string>
+
+    //Dashboard
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_my_sales">My Sales</string>
+    <string name="nav_my_income">My Income</string>
+    <string name="nav_projections">Projections</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_booking_form">Holiday Booking Form</string>
+    <string name="nav_genealogy">Genealogy</string>
+    <string name="nav_family_view">Family View</string>
+    <string name="nav_ibo_list">IBO List</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_my_profile">My Profile</string>
+
+    <string name="bonanza_income">Bonanza</string>
+    <string name="mini_bonanza_income">Mini Bonanza</string>
+    <string name="sr_no">Sr No</string>
+
+    <string name="prompt_error_request_cancelled">Your request has cancelled</string>
+    <!--Payment Summary-->
+    <!-- <string name="prompt_traveller_type" translatable="false">Traveller Type</string>
+     <string name="prompt_ibo_id" translatable="false">IBO ID</string>
+     <string name="prompt_mobile" translatable="false">Mobile</string>
+     <string name="prompt_address_details" translatable="false">Address</string>
+     <string name="prompt_booking_id" translatable="false">Booking ID</string>
+     <string name="prompt_paid_amount" translatable="false">Amount Paid</string>
+     <string name="prompt_transaction_no" translatable="false">Transaction No</string>-->
+    <string name="prompt_arrival_date">Arrival Date</string>
+
+    <!--Your payment has been processed successfully and your booking is confirmed. Please check your email for booking details."-->
+    <!--End Modification-->
+
+    <string name="prompt_pay_now">Pay Now</string>
+    <!--Merchant -->
+    <!--<string name="prompt_redirect_url" translatable="false">http://203.88.139.169:9065/API/PaymentGateway/ccavResponseHandler</string>
+    <string name="key_value_access_code" translatable="false">AVCO76FC73AS62OCSA</string> &lt;!&ndash; AVCG76FC86BF46GCFB</string>&ndash;&gt;
+    <string name="key_value_merchant_id" translatable="false">169180</string>
+    <string name="key_value_currency" translatable="false">INR</string>
+    <string name="prompt_please_wait" translatable="false">Please wait..</string>
+    <string name="prompt_process_message" translatable="false">We\'re processing your holiday package \n This process may take a few seconds,\n so please be patient</string>
+    <string name="prompt_holiday_payment" translatable="false">Nebula Holiday Payment</string>
+    <string name="prompt_holiday_booking" translatable="false">Transaction Holiday Booking</string>-->
+    <string name="prompt_holiday_date" translatable="true">Transaction Date Selection</string>
+    <string name="prompt_holiday_name_change" translatable="true">Transaction Name Change</string>
+    <string name="prompt_payment_message" translatable="true">\u2713 Paid Amount INR 16800</string>
+    <!--<string name="prompt_thank_you_message" translatable="false">Your payment has been processed successfully and your booking is confirmed. Please check your email for booking details.</string>-->
+    <string name="prompt_more_click">5 Days, 4 nights Thailand (Bangkok/Pattaya) Package for details of Hotel,Other Amenities and T&amp;C Click Here.</string>
+
+    <string name="my_dv">My DV: </string>
+    <string name="nvtoken">NV Token</string>
+    <string name="nvdp">NV Down Payment</string>
+    <string name="nvbankloan">NV Bank Loan</string>
+    <string name="emi_date">EMI Date</string>
+    <string name="cust_login">வாடிக்கையாளர் உள்நுழைவு</string>
+
+</resources>

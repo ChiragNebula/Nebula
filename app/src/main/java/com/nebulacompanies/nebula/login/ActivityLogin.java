@@ -4,9 +4,11 @@ import static com.nebulacompanies.nebula.util.NetworkChangeReceiver.isInternetPr
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
-import android.text.InputFilter;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,18 +18,18 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.nebulacompanies.nebula.CustomerBooking.Utils.Model.InstallmentInfo;
-import com.nebulacompanies.nebula.Model.Guest.SiteProgress;
 import com.nebulacompanies.nebula.Model.Login.getLoginResonse;
 import com.nebulacompanies.nebula.Network.APIClient;
 import com.nebulacompanies.nebula.Network.APIInterface;
 import com.nebulacompanies.nebula.R;
+import com.nebulacompanies.nebula.util.Session;
 import com.nebulacompanies.nebula.util.Uttils;
+
+import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -45,16 +47,49 @@ public class ActivityLogin extends Activity {
 
     TextView txt_NeedHelp;
 
+    // Shared Prefrences
+    SharedPreferences sharedPreferences;
+    //Shared Preferences Variables
+    private static final String Locale_Preference = "Locale Preference";
+    private static final String Locale_KeyValue = "Saved Locale";
+    private static SharedPreferences.Editor editor;
+    String lang;
+
+    TextView txt_Login;
+
+    Session session;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        session = new Session(this);
+        sharedPreferences = this.getPreferences(Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
         mAPIInterface = APIClient.getClient(this).create(APIInterface.class);
         obj_Login = this;
         findById();
         setAction();
+        setLangRecreate();
     }
 
+
+    public void setLangRecreate() {
+        String language = session.getLanguage();
+        if (language.equalsIgnoreCase(""))
+            return;
+        Locale myLocale = new Locale(language);//Set Selected Locale
+        Locale.setDefault(myLocale);//set new locale as default
+        Configuration config = new Configuration();//get Configuration
+        config.locale = myLocale;//set config locale as selected locale
+        Log.e("Locale", config.locale.toString());
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());//Update the config
+        //recreate();
+        updateText();
+    }
+
+    private void updateText() {
+        txt_Login.setText(R.string.login);
+    }
 
     private void dialougNeedHelp() {
         LayoutInflater mLayoutInflater = (LayoutInflater)getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
@@ -96,6 +131,8 @@ public class ActivityLogin extends Activity {
       // edt_BlockNo.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
 
         txt_NeedHelp = findViewById(R.id.txt_NeedHelp);
+
+        txt_Login = (TextView) findViewById(R.id.txt_Login);
     }
 
     private void setAction() {
@@ -121,10 +158,10 @@ public class ActivityLogin extends Activity {
 
                 if (str_Block == null || str_Block.equals("")){
                   //  Uttils.showToast(obj_Login,"Please Enter Block");
-                    edt_BlockNo.setError("Please Enter Block");
+                    edt_BlockNo.setError(getString(R.string.validationblocks));
                     edt_BlockNo.requestFocus();
                 }else if (str_Flat == null || str_Flat.equals("")){
-                    edt_FlatNo.setError("Please Enter Flat No.");
+                    edt_FlatNo.setError(getString(R.string.validationflat));
                     edt_FlatNo.requestFocus();
                     //Uttils.showToast(obj_Login,"Please Enter Flat No.");
                 }
