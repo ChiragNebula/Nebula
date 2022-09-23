@@ -33,6 +33,7 @@ import com.nebulacompanies.nebula.Network.APIInterface;
 import com.nebulacompanies.nebula.R;
 import com.nebulacompanies.nebula.adapters.NotificationsListViewAdapter;
 import com.nebulacompanies.nebula.util.ConnectionDetector;
+import com.nebulacompanies.nebula.util.Uttils;
 import com.nebulacompanies.nebula.view.MyTextView;
 
 import java.text.SimpleDateFormat;
@@ -144,22 +145,12 @@ public class Notifications extends Base2Activity implements AdapterView.OnItemCl
 
     private void getNotificationList() {
         if (isInternetPresent) {
-            final ProgressDialog mProgressDialog = new ProgressDialog(this, R.style.MyTheme);
-            /*mProgressDialog.setCancelable(true);
-            mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);*/
-            if (!isRefreshed) {
-                mProgressDialog.show();
-            }
-            mProgressDialog.setCancelable(false);
-            mProgressDialog.setContentView(R.layout.progressdialog);
-            mProgressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            Uttils.showProgressDialoug(this);
             Call<Notification> wsCallingNotification = mAPIInterface.getNotificationList();
             wsCallingNotification.enqueue(new Callback<Notification>() {
                 @Override
                 public void onResponse(Call<Notification> call, Response<Notification> response) {
-                    if (mProgressDialog != null && mProgressDialog.isShowing()) {
-                        mProgressDialog.dismiss();
-                    }
+                   Uttils.hideProgressDialoug();
                     mSwipeRefreshLayout.setRefreshing(false);
                     arrayListNotifications.clear();
                     if (response.isSuccessful()) {
@@ -192,7 +183,7 @@ public class Notifications extends Base2Activity implements AdapterView.OnItemCl
                 @Override
                 public void onFailure(Call<Notification> call, Throwable t) {
                     mSwipeRefreshLayout.setEnabled(false);
-                    mProgressDialog.dismiss();
+                    Uttils.hideProgressDialoug();
                     serviceUnavailable();
                 }
             });

@@ -29,6 +29,7 @@ import com.nebulacompanies.nebula.Network.APIInterface;
 import com.nebulacompanies.nebula.R;
 import com.nebulacompanies.nebula.adapters.CompanyEventsAdapter;
 import com.nebulacompanies.nebula.util.ConnectionDetector;
+import com.nebulacompanies.nebula.util.Uttils;
 import com.nebulacompanies.nebula.view.MyTextView;
 
 import java.util.ArrayList;
@@ -157,22 +158,12 @@ public class CompanyEvents extends Base2Activity implements AdapterView.OnItemCl
 
     private void getEventList() {
         if (isInternetPresent) {
-            final ProgressDialog mProgressDialog = new ProgressDialog(this, R.style.MyTheme);
-           /* mProgressDialog.setCancelable(true);
-            mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);*/
-            if (!isRefreshed) {
-                mProgressDialog.show();
-            }
-            mProgressDialog.setCancelable(false);
-            mProgressDialog.setContentView(R.layout.progressdialog);
-            mProgressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+            Uttils.showProgressDialoug(this);
             Call<Events> wsCallingEvents = mAPIInterface.getEventList();
             wsCallingEvents.enqueue(new Callback<Events>() {
                 @Override
                 public void onResponse(Call<Events> call, Response<Events> response) {
-                    if (mProgressDialog!=null&&mProgressDialog.isShowing()){
-                        mProgressDialog.dismiss();
-                    }
+                    Uttils.hideProgressDialoug();
                     mSwipeRefreshLayout.setRefreshing(false);
                     arrayListEvents.clear();
                     if (response.isSuccessful()) {
@@ -204,7 +195,7 @@ public class CompanyEvents extends Base2Activity implements AdapterView.OnItemCl
                 @Override
                 public void onFailure(Call<Events> call, Throwable t) {
                     mSwipeRefreshLayout.setEnabled(false);
-                    mProgressDialog.dismiss();
+                    Uttils.hideProgressDialoug();
                     serviceUnavailable();
                 }
             });

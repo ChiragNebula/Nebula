@@ -36,8 +36,8 @@ public class Config {
 
     // LIVE URL
   // public static String TESTING_API = "http://151.106.35.35:9080/";
-   public static String TESTING_API = "https://nebulacompanies.net";
-  //  public static String TESTING_API = "http://203.88.139.169:9064";
+  // public static String TESTING_API = "https://nebulacompanies.net";
+    public static String TESTING_API = "http://203.88.139.169:9064";
 
     public static String RANK_ID = "";
 //

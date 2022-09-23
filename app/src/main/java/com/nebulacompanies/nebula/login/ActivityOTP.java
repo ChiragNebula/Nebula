@@ -19,7 +19,6 @@ import android.text.Spanned;
 import android.text.TextWatcher;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -234,7 +233,9 @@ public class ActivityOTP extends Activity implements
                                           int count, int after) {
             }
             public void afterTextChanged(Editable s) {
-
+                if(edt_Otp1.getText().toString().length()> 0 && edt_Otp2.getText().toString().length() == 0){
+                    edt_Otp1.requestFocus();
+                }
             }
         });
 
@@ -251,6 +252,10 @@ public class ActivityOTP extends Activity implements
             }
             public void afterTextChanged(Editable s) {
                // edt_Otp2.requestFocus();
+
+                if(edt_Otp2.getText().toString().length()> 0 && edt_Otp3.getText().toString().length() == 0){
+                    edt_Otp2.requestFocus();
+                }
             }
         });
 
@@ -275,25 +280,25 @@ public class ActivityOTP extends Activity implements
         });
 
 
-        edt_Otp2.setOnKeyListener(new View.OnKeyListener() {
+//        edt_Otp2.setOnKeyListener(new View.OnKeyListener() {
+//
+//            @Override
+//            public boolean onKey(View v, int keyCode, KeyEvent event) {
+//                // TODO Auto-generated method stub
+//                edt_Otp1.requestFocus();
+//                return false;
+//            }
+//        });
 
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                // TODO Auto-generated method stub
-                edt_Otp1.requestFocus();
-                return false;
-            }
-        });
-
-        edt_Otp3.setOnKeyListener(new View.OnKeyListener() {
-
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                // TODO Auto-generated method stub
-                edt_Otp2.requestFocus();
-                return false;
-            }
-        });
+//        edt_Otp3.setOnKeyListener(new View.OnKeyListener() {
+//
+//            @Override
+//            public boolean onKey(View v, int keyCode, KeyEvent event) {
+//                // TODO Auto-generated method stub
+//                edt_Otp2.requestFocus();
+//                return false;
+//            }
+//        });
 
 //        edt_Otp4.setOnKeyListener(new View.OnKeyListener() {
 //

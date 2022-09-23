@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.google.android.gms.auth.api.phone.SmsRetriever;
 import com.google.android.gms.common.api.CommonStatusCodes;
@@ -36,15 +37,14 @@ public class SMSReceiver   extends BroadcastReceiver {
 
                     //This is the full message
                     String message = (String) extras.get(SmsRetriever.EXTRA_SMS_MESSAGE);
+                    Log.e("Message",message);
 
                     /*<#> Your ExampleApp code is: 123ABC78
                     FA+9qCX9VSu*/
 
                     //Extract the OTP code and send to the listener
+                    otpListener.onOTPReceived(message);
 
-                    if (otpListener != null) {
-                        otpListener.onOTPReceived(message);
-                    }
                     break;
                 case CommonStatusCodes.TIMEOUT:
                     // Waiting for SMS timed out (5 minutes)

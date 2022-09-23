@@ -66,6 +66,7 @@ public class AppSignatureHashHelper extends ContextWrapper {
             // encode into Base64
             String base64Hash = Base64.encodeToString(hashSignature, Base64.NO_PADDING | Base64.NO_WRAP);
             base64Hash = base64Hash.substring(0, NUM_BASE64_CHAR);
+            Log.e("HashKey",base64Hash);
 
             return base64Hash;
         } catch (NoSuchAlgorithmException e) {

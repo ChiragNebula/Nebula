@@ -46,6 +46,7 @@ import com.nebulacompanies.nebula.Network.APIClient;
 import com.nebulacompanies.nebula.Network.APIInterface;
 import com.nebulacompanies.nebula.R;
 import com.nebulacompanies.nebula.adapters.EBrochuresAdapter;
+import com.nebulacompanies.nebula.util.Uttils;
 import com.nebulacompanies.nebula.view.DownloadProgressView;
 import com.nebulacompanies.nebula.view.MyTextView;
 
@@ -157,22 +158,12 @@ public class BookingForms extends Fragment implements AdapterView.OnItemClickLis
 
     private void getBookingForms() {
         if (isInternetPresent) {
-            final ProgressDialog mProgressDialog = new ProgressDialog(getActivity(), R.style.MyTheme);
-            /*mProgressDialog.setCancelable(true);
-            mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);*/
-            if (!isRefreshed) {
-                mProgressDialog.show();
-            }
-            mProgressDialog.setCancelable(false);
-            mProgressDialog.setContentView(R.layout.progressdialog);
-            mProgressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+            Uttils.showProgressDialoug(getActivity());
             Call<EDocuments> wsCallingEDocuments = mAPIInterface.getEDocuments("BookingForms");
             wsCallingEDocuments.enqueue(new Callback<EDocuments>() {
                 @Override
                 public void onResponse(Call<EDocuments> call, Response<EDocuments> response) {
-                    if (mProgressDialog!=null&&mProgressDialog.isShowing()){
-                        mProgressDialog.dismiss();
-                    }
+                    Uttils.hideProgressDialoug();
                     mSwipeRefreshLayout.setRefreshing(false);
                     arrayListEDocuments.clear();
                     if (response.isSuccessful()) {
@@ -205,7 +196,7 @@ public class BookingForms extends Fragment implements AdapterView.OnItemClickLis
                 @Override
                 public void onFailure(Call<EDocuments> call, Throwable t) {
                     mSwipeRefreshLayout.setRefreshing(false);
-                    mProgressDialog.dismiss();
+                    Uttils.hideProgressDialoug();
                     serviceUnavailable();
                 }
             });

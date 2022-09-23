@@ -540,7 +540,7 @@ public class GuestActivity extends Base2Activity implements View.OnClickListener
                 else{
                     Intent va = new Intent(GuestActivity.this, CustomerBookingNavigationActivity.class);
                     startActivity(va);
-                    finish();
+
                 }
 
                 break;
