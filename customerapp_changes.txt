@@ -1,0 +1,10 @@
+Changes 
+1) Removed space in all
+2) Remove cancel button from login
+3) your - y small to get OTP.
+4) Add help text 
+5) Remove verify button in otp screen.
+6) Add user name and flat no around.
+7) Change color for header and tab view.
+8) info icon resize reduce.
+9) change all header color as same like main header.
